@@ -2,6 +2,7 @@
 <p align="center"><strong>A Knowledge-Guided Learning Approach</strong></p>
 <p align="center">
   <a href="#overview">Overview</a> ·
+  <a href="#data">Data</a> ·
   <a href="EXHIBITS.md">Tables and figures</a> ·
   <a href="experiment/README.md">Experiment code</a>
 </p>
@@ -23,6 +24,10 @@ The framework uses an LLM during offline development to propose executable progr
 <br>
 <p align="center"><img src="assets/method.png" width="950" alt="Four-stage framework for task inputs, S/R synthesis, validation and learning, and constrained deployment"></p>
 </details>
+
+## Data
+
+The experiments cover nine settings built from Expedia and KuaiSearch-Lite. The data guide lists the dataset sources, train, validation and test counts, market and query tiers, and the revenue metrics. [Read the data guide](data/README.md)
 
 | Directory | Contents |
 | --- | --- |
