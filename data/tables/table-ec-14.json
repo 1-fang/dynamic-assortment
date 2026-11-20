@@ -1,0 +1,225 @@
+{
+  "number": "EC.14",
+  "label": "embedding2",
+  "title": "Frozen-embedding results across operating settings: RNN-Pointer.",
+  "notes": "Means ± reported SD shown to two decimal places. Sentence-T. denotes Sentence-Transformer. Expedia30 is daily revenue; hotel groups use revenue per search; all KuaiSearch columns use expected GMV per 1,000 requests (prices divided by 100).",
+  "panels": [
+    [
+      {
+        "heading": "Panel A. Expedia: hotel inventory"
+      },
+      {
+        "cells": [
+          "Setting",
+          "mBERT (mean)",
+          "Sentence-T.",
+          "Multilingual E5",
+          "BGE-M3"
+        ]
+      },
+      {
+        "cells": [
+          "30 hotels",
+          {
+            "mean": "7829.06",
+            "sd": "77.93"
+          },
+          {
+            "mean": "7838.62",
+            "sd": "74.79"
+          },
+          {
+            "mean": "7897.60",
+            "sd": "42.94"
+          },
+          {
+            "mean": "7880.46",
+            "sd": "83.06"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Head",
+          {
+            "mean": "103.27",
+            "sd": "1.96"
+          },
+          {
+            "mean": "102.71",
+            "sd": "3.22"
+          },
+          {
+            "mean": "102.80",
+            "sd": "3.02"
+          },
+          {
+            "mean": "103.04",
+            "sd": "3.01"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Regular",
+          {
+            "mean": "108.22",
+            "sd": "1.81"
+          },
+          {
+            "mean": "106.54",
+            "sd": "1.42"
+          },
+          {
+            "mean": "107.48",
+            "sd": "0.50"
+          },
+          {
+            "mean": "106.01",
+            "sd": "0.79"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Cold",
+          {
+            "mean": "58.48",
+            "sd": "11.36"
+          },
+          {
+            "mean": "60.66",
+            "sd": "6.03"
+          },
+          {
+            "mean": "59.60",
+            "sd": "4.99"
+          },
+          {
+            "mean": "57.16",
+            "sd": "0.58"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Panel B. KuaiSearch: product exposure"
+      },
+      {
+        "cells": [
+          "Setting",
+          "mBERT (mean)",
+          "Sentence-T.",
+          "Multilingual E5",
+          "BGE-M3"
+        ]
+      },
+      {
+        "cells": [
+          "Overall",
+          {
+            "mean": "3992.83",
+            "sd": "5.00"
+          },
+          {
+            "mean": "3993.98",
+            "sd": "3.37"
+          },
+          {
+            "mean": "3993.99",
+            "sd": "3.38"
+          },
+          {
+            "mean": "3993.44",
+            "sd": "4.45"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Head",
+          {
+            "mean": "4622.64",
+            "sd": "26.30"
+          },
+          {
+            "mean": "4623.90",
+            "sd": "24.41"
+          },
+          {
+            "mean": "4622.38",
+            "sd": "24.19"
+          },
+          {
+            "mean": "4624.53",
+            "sd": "17.83"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Regular",
+          {
+            "mean": "5719.00",
+            "sd": "4.29"
+          },
+          {
+            "mean": "5828.93",
+            "sd": "4.03"
+          },
+          {
+            "mean": "5920.25",
+            "sd": "5.56"
+          },
+          {
+            "mean": "5818.92",
+            "sd": "4.24"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Cold",
+          {
+            "mean": "3195.56",
+            "sd": "17.29"
+          },
+          {
+            "mean": "3190.92",
+            "sd": "8.83"
+          },
+          {
+            "mean": "3195.59",
+            "sd": "17.47"
+          },
+          {
+            "mean": "3192.29",
+            "sd": "16.31"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Unseen",
+          {
+            "mean": "3198.30",
+            "sd": "13.06"
+          },
+          {
+            "mean": "3206.32",
+            "sd": "1.67"
+          },
+          {
+            "mean": "3200.59",
+            "sd": "8.02"
+          },
+          {
+            "mean": "3205.95",
+            "sd": "1.58"
+          }
+        ]
+      }
+    ]
+  ]
+}

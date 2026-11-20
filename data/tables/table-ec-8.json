@@ -1,0 +1,94 @@
+{
+  "number": "EC.8",
+  "label": "sr_query_regular",
+  "title": "Selected S dimensions for Q-Regular",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Operating content",
+          "Construction in words"
+        ]
+      },
+      {
+        "cells": [
+          "G1 / G2",
+          "Episode timing",
+          "Elapsed and remaining fractions."
+        ]
+      },
+      {
+        "cells": [
+          "G3",
+          "Typical price",
+          "Bounded mean log price."
+        ]
+      },
+      {
+        "cells": [
+          "G4",
+          "Historical click efficiency",
+          "Bounded mean clicks divided by one plus displays."
+        ]
+      },
+      {
+        "cells": [
+          "G5",
+          "Historical conversion efficiency",
+          "Bounded mean orders divided by one plus clicks."
+        ]
+      },
+      {
+        "cells": [
+          "G6",
+          "Combined historical response efficiency",
+          "Bounded mean geometric combination of click and conversion efficiencies."
+        ]
+      },
+      {
+        "cells": [
+          "G7",
+          "Exposure availability",
+          "Mean budget ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G8",
+          "Exposure and remaining window",
+          "Mean budget ratio multiplied by remaining progress."
+        ]
+      },
+      {
+        "cells": [
+          "C1",
+          "Relative price",
+          "Bounded log-price deviation."
+        ]
+      },
+      {
+        "cells": [
+          "C2",
+          "Relative click efficiency",
+          "Bounded deviation of the unbounded historical click ratio from its set mean."
+        ]
+      },
+      {
+        "cells": [
+          "C3",
+          "Relative conversion efficiency",
+          "Bounded deviation of the unbounded historical conversion ratio from its set mean."
+        ]
+      },
+      {
+        "cells": [
+          "C4",
+          "Response efficiency and remaining window",
+          "Bounded deviation of combined response efficiency, multiplied by remaining progress."
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "number": "3",
+  "label": "mainperformance",
+  "title": "Operating performance across the Expedia hotel-inventory and KuaiSearch product-exposure environments. Panel A reports daily revenue for Expedia30 and revenue per search for the Expedia destination-market groups. Panel B reports expected GMV per 1,000 requests for KuaiSearch, with product prices scaled by 1/100. Entries are means with standard deviations (SDs); bold values indicate the highest mean in each setting.",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "heading": "Panel A. Expedia: Hotel Inventory"
+      },
+      {
+        "cells": [
+          "Method",
+          "30 Hotels revenue/day",
+          "Head revenue/search",
+          "Regular revenue/search",
+          "Cold revenue/search"
+        ]
+      },
+      {
+        "heading": "Operating-rule and slate-based benchmarks"
+      },
+      {
+        "cells": [
+          "LoggedTopK",
+          {
+            "mean": "5905.22",
+            "sd": "0.52"
+          },
+          {
+            "mean": "81.97",
+            "sd": "0.89"
+          },
+          {
+            "mean": "82.34",
+            "sd": "0.35"
+          },
+          {
+            "mean": "78.97",
+            "sd": "0.71"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Random",
+          {
+            "mean": "4125.10",
+            "sd": "0.24"
+          },
+          {
+            "mean": "60.00",
+            "sd": "0.15"
+          },
+          {
+            "mean": "69.79",
+            "sd": "0.62"
+          },
+          {
+            "mean": "54.98",
+            "sd": "1.09"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Myopic",
+          {
+            "mean": "5506.02",
+            "sd": "0.32"
+          },
+          {
+            "mean": "90.80",
+            "sd": "0.31"
+          },
+          {
+            "mean": "95.56",
+            "sd": "0.54"
+          },
+          {
+            "mean": "88.53",
+            "sd": "0.68"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "SlateQ Greedy",
+          {
+            "mean": "6105.06",
+            "sd": "0.19"
+          },
+          {
+            "mean": "85.10",
+            "sd": "0.46"
+          },
+          {
+            "mean": "81.03",
+            "sd": "0.34"
+          },
+          {
+            "mean": "79.88",
+            "sd": "0.98"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "SlateQ TopK",
+          {
+            "mean": "6204.10",
+            "sd": "1.71"
+          },
+          {
+            "mean": "82.37",
+            "sd": "0.96"
+          },
+          {
+            "mean": "79.69",
+            "sd": "0.27"
+          },
+          {
+            "mean": "80.06",
+            "sd": "0.39"
+          }
+        ]
+      },
+      {
+        "heading": "DRL baselines (A2C with different neural backbones)"
+      },
+      {
+        "cells": [
+          "A2C GRU",
+          {
+            "mean": "8100.06",
+            "sd": "38.51"
+          },
+          {
+            "mean": "92.15",
+            "sd": "2.17"
+          },
+          {
+            "mean": "87.05",
+            "sd": "1.34"
+          },
+          {
+            "mean": "78.20",
+            "sd": "9.49"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "A2C RNN",
+          {
+            "mean": "7926.09",
+            "sd": "77.96"
+          },
+          {
+            "mean": "93.12",
+            "sd": "1.44"
+          },
+          {
+            "mean": "85.72",
+            "sd": "1.47"
+          },
+          {
+            "mean": "77.20",
+            "sd": "3.60"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "A2C Transformer",
+          {
+            "mean": "8093.58",
+            "sd": "34.55"
+          },
+          {
+            "mean": "101.27",
+            "sd": "2.06"
+          },
+          {
+            "mean": "102.35",
+            "sd": "2.41"
+          },
+          {
+            "mean": "76.60",
+            "sd": "3.47"
+          }
+        ]
+      },
+      {
+        "heading": "LLM-guided S/R (A2C Transformer)"
+      },
+      {
+        "cells": [
+          "Qwen + S/R",
+          {
+            "mean": "8320.62",
+            "sd": "50.59"
+          },
+          {
+            "mean": "118.62",
+            "sd": "0.55"
+          },
+          {
+            "mean": "117.05",
+            "sd": "0.26"
+          },
+          {
+            "mean": "95.24",
+            "sd": "0.70"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "DeepSeek + S/R",
+          {
+            "mean": "8399.51",
+            "sd": "9.19"
+          },
+          {
+            "mean": "117.81",
+            "sd": "0.38"
+          },
+          {
+            "mean": "109.47",
+            "sd": "6.29"
+          },
+          {
+            "mean": "89.21",
+            "sd": "2.27"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "GPT-4o-mini + S/R",
+          {
+            "mean": "8177.95",
+            "sd": "25.53"
+          },
+          {
+            "mean": "111.96",
+            "sd": "0.85"
+          },
+          {
+            "mean": "110.16",
+            "sd": "0.79"
+          },
+          {
+            "mean": "87.33",
+            "sd": "0.94"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "GPT-5.4-mini + S/R",
+          {
+            "mean": "8431.92",
+            "sd": "26.41"
+          },
+          {
+            "mean": "121.56",
+            "sd": "1.09"
+          },
+          {
+            "mean": "114.37",
+            "sd": "3.01"
+          },
+          {
+            "mean": "92.84",
+            "sd": "3.24"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Panel B. KuaiSearch: Product Exposure"
+      },
+      {
+        "cells": [
+          "Method",
+          "Overall",
+          "Q-Head",
+          "Q-Regular",
+          "Q-Cold",
+          "Q-Unseen"
+        ]
+      },
+      {
+        "heading": "Operating-rule and slate-based benchmarks"
+      },
+      {
+        "cells": [
+          "LoggedTopK",
+          {
+            "mean": "3952.35",
+            "sd": "690.93"
+          },
+          {
+            "mean": "4413.53",
+            "sd": "0.00"
+          },
+          {
+            "mean": "4055.97",
+            "sd": "0.00"
+          },
+          {
+            "mean": "3170.41",
+            "sd": "0.00"
+          },
+          {
+            "mean": "3159.40",
+            "sd": "0.00"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Random",
+          {
+            "mean": "3933.70",
+            "sd": "692.39"
+          },
+          {
+            "mean": "4012.89",
+            "sd": "13.75"
+          },
+          {
+            "mean": "5455.20",
+            "sd": "32.46"
+          },
+          {
+            "mean": "2750.51",
+            "sd": "8.42"
+          },
+          {
+            "mean": "2850.90",
+            "sd": "32.20"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Myopic",
+          {
+            "mean": "4145.93",
+            "sd": "696.32"
+          },
+          {
+            "mean": "4211.53",
+            "sd": "0.00"
+          },
+          {
+            "mean": "5108.21",
+            "sd": "19.15"
+          },
+          {
+            "mean": "3145.25",
+            "sd": "0.00"
+          },
+          {
+            "mean": "3328.33",
+            "sd": "0.00"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "SlateQ Greedy",
+          {
+            "mean": "4039.10",
+            "sd": "10.24"
+          },
+          {
+            "mean": "4559.79",
+            "sd": "8.58"
+          },
+          {
+            "mean": "5756.98",
+            "sd": "6.58"
+          },
+          {
+            "mean": "3294.63",
+            "sd": "16.82"
+          },
+          {
+            "mean": "3235.71",
+            "sd": "13.20"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "SlateQ TopK",
+          {
+            "mean": "4000.88",
+            "sd": "11.47"
+          },
+          {
+            "mean": "4548.71",
+            "sd": "17.85"
+          },
+          {
+            "mean": "5654.53",
+            "sd": "6.53"
+          },
+          {
+            "mean": "3234.47",
+            "sd": "26.13"
+          },
+          {
+            "mean": "3222.24",
+            "sd": "5.94"
+          }
+        ]
+      },
+      {
+        "heading": "DRL baselines (A2C with different neural backbones)"
+      },
+      {
+        "cells": [
+          "A2C GRU",
+          {
+            "mean": "3947.13",
+            "sd": "1.77"
+          },
+          {
+            "mean": "4619.82",
+            "sd": "23.18"
+          },
+          {
+            "mean": "5723.63",
+            "sd": "1.85"
+          },
+          {
+            "mean": "3201.06",
+            "sd": "12.77"
+          },
+          {
+            "mean": "3201.45",
+            "sd": "5.58"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "A2C RNN",
+          {
+            "mean": "3825.63",
+            "sd": "5.41"
+          },
+          {
+            "mean": "4613.53",
+            "sd": "15.03"
+          },
+          {
+            "mean": "5419.88",
+            "sd": "1.57"
+          },
+          {
+            "mean": "3193.89",
+            "sd": "13.24"
+          },
+          {
+            "mean": "3197.14",
+            "sd": "8.47"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "A2C Transformer",
+          {
+            "mean": "3951.96",
+            "sd": "0.99"
+          },
+          {
+            "mean": "4598.88",
+            "sd": "15.98"
+          },
+          {
+            "mean": "5708.23",
+            "sd": "18.13"
+          },
+          {
+            "mean": "3218.12",
+            "sd": "11.54"
+          },
+          {
+            "mean": "3197.64",
+            "sd": "4.84"
+          }
+        ]
+      },
+      {
+        "heading": "LLM-guided S/R (A2C Transformer)"
+      },
+      {
+        "cells": [
+          "Qwen + S/R",
+          {
+            "mean": "4350.00",
+            "sd": "40.06"
+          },
+          {
+            "mean": "4894.02",
+            "sd": "16.99"
+          },
+          {
+            "mean": "6197.50",
+            "sd": "19.38"
+          },
+          {
+            "mean": "3520.41",
+            "sd": "7.21"
+          },
+          {
+            "mean": "3492.74",
+            "sd": "7.36"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "DeepSeek + S/R",
+          {
+            "mean": "4164.95",
+            "sd": "37.99"
+          },
+          {
+            "mean": "4793.16",
+            "sd": "16.29"
+          },
+          {
+            "mean": "6015.45",
+            "sd": "19.47"
+          },
+          {
+            "mean": "3426.22",
+            "sd": "6.39"
+          },
+          {
+            "mean": "3399.56",
+            "sd": "1.10"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "GPT-4o-mini + S/R",
+          {
+            "mean": "3964.79",
+            "sd": "37.82"
+          },
+          {
+            "mean": "4690.24",
+            "sd": "17.58"
+          },
+          {
+            "mean": "6107.36",
+            "sd": "19.23"
+          },
+          {
+            "mean": "3520.58",
+            "sd": "6.94"
+          },
+          {
+            "mean": "3294.17",
+            "sd": "6.50"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "GPT-5.4-mini + S/R",
+          {
+            "mean": "4265.06",
+            "sd": "38.14"
+          },
+          {
+            "mean": "4993.83",
+            "sd": "15.96"
+          },
+          {
+            "mean": "6239.45",
+            "sd": "0.00"
+          },
+          {
+            "mean": "3626.22",
+            "sd": "6.28"
+          },
+          {
+            "mean": "3597.49",
+            "sd": "9.38"
+          }
+        ]
+      }
+    ]
+  ]
+}

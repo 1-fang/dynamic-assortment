@@ -1,0 +1,94 @@
+{
+  "number": "EC.9",
+  "label": "sr_query_cold",
+  "title": "Selected S dimensions for Q-Cold",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Operating content",
+          "Construction in words"
+        ]
+      },
+      {
+        "cells": [
+          "G1 / G2",
+          "Episode timing",
+          "Elapsed and remaining fractions."
+        ]
+      },
+      {
+        "cells": [
+          "G3",
+          "Typical price",
+          "Bounded mean log price."
+        ]
+      },
+      {
+        "cells": [
+          "G4",
+          "Log-history click-to-display summary",
+          "Bounded ratio of mean log clicks to one plus mean log displays."
+        ]
+      },
+      {
+        "cells": [
+          "G5",
+          "Log-history order-to-click summary",
+          "Bounded ratio of mean log orders to one plus mean log clicks."
+        ]
+      },
+      {
+        "cells": [
+          "G6",
+          "Exposure availability",
+          "Bounded mean budget ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G7",
+          "Historical efficiency and remaining time",
+          "Bounded mean log-click-minus-log-display signal multiplied by remaining progress plus a small constant."
+        ]
+      },
+      {
+        "cells": [
+          "G8",
+          "User-scale interaction",
+          "Bounded product of the user's fan count, follow count, and historical display count."
+        ]
+      },
+      {
+        "cells": [
+          "C1",
+          "Relative price",
+          "Bounded log-price deviation."
+        ]
+      },
+      {
+        "cells": [
+          "C2",
+          "Historical click-to-display signal",
+          "Bounded difference of log click and log display counts."
+        ]
+      },
+      {
+        "cells": [
+          "C3",
+          "Historical order-to-click signal",
+          "Bounded difference of log order and log click counts."
+        ]
+      },
+      {
+        "cells": [
+          "C4",
+          "Exposure, time, and historical support",
+          "Budget ratio times remaining progress plus a small constant, divided by one plus log displays, then bounded."
+        ]
+      }
+    ]
+  ]
+}

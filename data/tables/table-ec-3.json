@@ -1,0 +1,94 @@
+{
+  "number": "EC.3",
+  "label": "sr_fixed_dimensions",
+  "title": "Individual dimensions of the selected fixed-hotel S program",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Operating content",
+          "Construction in words"
+        ]
+      },
+      {
+        "cells": [
+          "G1",
+          "Inventory relative to the selling window",
+          "Bounded difference between average remaining inventory fraction and the remaining fraction of the episode."
+        ]
+      },
+      {
+        "cells": [
+          "G2",
+          "Customer-type price discrepancy",
+          "Bounded difference between the type-specific display-price proxy and the inventory-weighted mean hotel price."
+        ]
+      },
+      {
+        "cells": [
+          "G3",
+          "Historical support",
+          "Bounded average exposure-support weight across all 30 hotels."
+        ]
+      },
+      {
+        "cells": [
+          "G4",
+          "Demand pressure carried by available stock",
+          "Support-adjusted demand pressure averaged using current inventory fractions."
+        ]
+      },
+      {
+        "cells": [
+          "G5",
+          "Price level of the remaining catalog",
+          "Bounded inventory-weighted mean price when a hotel is available; zero otherwise."
+        ]
+      },
+      {
+        "cells": [
+          "G6",
+          "Average pressure among available hotels",
+          "Bounded mean of support-adjusted demand pressure over hotels with positive inventory."
+        ]
+      },
+      {
+        "cells": [
+          "G7",
+          "Price and demand pressure together",
+          "Bounded mean of the price deviation from the inventory-weighted mean multiplied by support-adjusted demand pressure among available hotels."
+        ]
+      },
+      {
+        "cells": [
+          "G8",
+          "Average price matching",
+          "Bounded mean price-proximity score among currently available hotels."
+        ]
+      },
+      {
+        "cells": [
+          "C1",
+          "Relative price adjusted for demand pressure",
+          "Relative price minus one quarter of support-adjusted demand pressure, followed by a bounded transformation."
+        ]
+      },
+      {
+        "cells": [
+          "C2",
+          "Current matching adjusted for the remaining window",
+          "Price-proximity score minus remaining-window-weighted demand pressure, followed by a bounded transformation."
+        ]
+      },
+      {
+        "cells": [
+          "C3",
+          "Price position as the window closes",
+          "Relative price weighted by elapsed progress, plus one quarter of the proximity score, followed by a bounded transformation."
+        ]
+      }
+    ]
+  ]
+}

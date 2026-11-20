@@ -1,0 +1,45 @@
+{
+  "number": "EC.12",
+  "label": "embeddingmodels",
+  "title": "Generic representation treatments and their native output dimensions",
+  "notes": "Native dimensions describe encoder outputs, not the number of policy-state variables or the hidden width of the receiving A2C network.",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Treatment",
+          "Dimensions",
+          "Representation convention"
+        ]
+      },
+      {
+        "cells": [
+          "mBERT",
+          "768",
+          "Mean pooling of pretrained multilingual token representations"
+        ]
+      },
+      {
+        "cells": [
+          "Sentence-Transformer",
+          "768",
+          "Pretrained multilingual sentence representation"
+        ]
+      },
+      {
+        "cells": [
+          "BGE-M3",
+          "1,024",
+          "Frozen dense embedding with the recorded BGE pooling convention"
+        ]
+      },
+      {
+        "cells": [
+          "Multilingual E5",
+          "1,024",
+          "Query and passage roles retained in text construction"
+        ]
+      }
+    ]
+  ]
+}

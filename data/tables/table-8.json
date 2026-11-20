@@ -1,0 +1,436 @@
+{
+  "number": "8",
+  "label": "resourcekuai",
+  "title": "Product-exposure sensitivity under the A2C Transformer baseline and Qwen-guided S/R augmentation. Panel A reports the mixed-query KuaiSearch Overall setting; Panel B reports separately budgeted query-support groups. Outcomes are expected GMV per 1,000 requests (prices scaled by 1/100).",
+  "notes": "Entries are means ± reported SDs. Nominal targets apply to full 200-request episodes; realized budgets may be lower because of shorter episodes, integer allocation, and candidate-occurrence caps. Each query group has its own episode and resource construction. Difference is Qwen S/R minus A2C Transformer, calculated from the displayed means. Policies are trained and evaluated at their corresponding resource levels.",
+  "panels": [
+    [
+      {
+        "heading": "Panel A. KuaiSearch Overall: Mixed-Query Episodes"
+      },
+      {
+        "cells": [
+          "Group",
+          "ρ",
+          "Nominal target",
+          "A2C Transformer",
+          "Qwen S/R",
+          "Difference"
+        ]
+      },
+      {
+        "cells": [
+          "Overall",
+          "0.50",
+          "1,000",
+          {
+            "mean": "2453.35",
+            "sd": "0.88"
+          },
+          {
+            "mean": "2645.47",
+            "sd": "10.10"
+          },
+          "+192.12"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "0.75",
+          "1,500",
+          {
+            "mean": "3369.12",
+            "sd": "1.96"
+          },
+          {
+            "mean": "3560.72",
+            "sd": "2.78"
+          },
+          "+191.60"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.00",
+          "2,000",
+          {
+            "mean": "3951.96",
+            "sd": "0.99"
+          },
+          {
+            "mean": "4350.00",
+            "sd": "40.06"
+          },
+          "+398.04"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.25",
+          "2,500",
+          {
+            "mean": "4282.12",
+            "sd": "2.43"
+          },
+          {
+            "mean": "4466.35",
+            "sd": "20.10"
+          },
+          "+184.23"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.50",
+          "3,000",
+          {
+            "mean": "4482.91",
+            "sd": "3.47"
+          },
+          {
+            "mean": "4571.10",
+            "sd": "17.65"
+          },
+          "+88.19"
+        ]
+      },
+      {
+        "heading": "Panel B. KuaiSearch Query-Support Groups"
+      },
+      {
+        "cells": [
+          "Group",
+          "ρ",
+          "Nominal target",
+          "A2C Transformer",
+          "Qwen S/R",
+          "Difference"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Head",
+          "0.50",
+          "1,000",
+          {
+            "mean": "2845.08",
+            "sd": "2.97"
+          },
+          {
+            "mean": "2894.09",
+            "sd": "1.58"
+          },
+          "+49.01"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "0.75",
+          "1,500",
+          {
+            "mean": "3827.08",
+            "sd": "12.30"
+          },
+          {
+            "mean": "3924.64",
+            "sd": "13.81"
+          },
+          "+97.56"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.00",
+          "2,000",
+          {
+            "mean": "4598.88",
+            "sd": "15.98"
+          },
+          {
+            "mean": "4894.02",
+            "sd": "16.99"
+          },
+          "+295.14"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.25",
+          "2,500",
+          {
+            "mean": "4899.28",
+            "sd": "20.88"
+          },
+          {
+            "mean": "5021.30",
+            "sd": "16.74"
+          },
+          "+122.02"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.50",
+          "3,000",
+          {
+            "mean": "5394.94",
+            "sd": "35.13"
+          },
+          {
+            "mean": "5691.54",
+            "sd": "28.33"
+          },
+          "+296.60"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Regular",
+          "0.50",
+          "1,000",
+          {
+            "mean": "3706.01",
+            "sd": "0.89"
+          },
+          {
+            "mean": "3839.38",
+            "sd": "1.31"
+          },
+          "+133.37"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "0.75",
+          "1,500",
+          {
+            "mean": "4610.08",
+            "sd": "4.01"
+          },
+          {
+            "mean": "4878.46",
+            "sd": "3.31"
+          },
+          "+268.38"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.00",
+          "2,000",
+          {
+            "mean": "5708.23",
+            "sd": "18.13"
+          },
+          {
+            "mean": "6197.50",
+            "sd": "19.38"
+          },
+          "+489.27"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.25",
+          "2,500",
+          {
+            "mean": "6339.33",
+            "sd": "17.97"
+          },
+          {
+            "mean": "6652.76",
+            "sd": "4.79"
+          },
+          "+313.43"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.50",
+          "3,000",
+          {
+            "mean": "7492.69",
+            "sd": "6.17"
+          },
+          {
+            "mean": "7819.19",
+            "sd": "13.14"
+          },
+          "+326.50"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Cold",
+          "0.50",
+          "1,000",
+          {
+            "mean": "2029.75",
+            "sd": "14.38"
+          },
+          {
+            "mean": "2137.14",
+            "sd": "18.06"
+          },
+          "+107.39"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "0.75",
+          "1,500",
+          {
+            "mean": "2145.59",
+            "sd": "12.46"
+          },
+          {
+            "mean": "2830.87",
+            "sd": "12.16"
+          },
+          "+685.28"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.00",
+          "2,000",
+          {
+            "mean": "3218.12",
+            "sd": "11.54"
+          },
+          {
+            "mean": "3520.41",
+            "sd": "7.21"
+          },
+          "+302.29"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.25",
+          "2,500",
+          {
+            "mean": "3829.61",
+            "sd": "10.52"
+          },
+          {
+            "mean": "3917.51",
+            "sd": "13.79"
+          },
+          "+87.90"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.50",
+          "3,000",
+          {
+            "mean": "4099.29",
+            "sd": "30.28"
+          },
+          {
+            "mean": "4195.43",
+            "sd": "38.39"
+          },
+          "+96.14"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Unseen",
+          "0.50",
+          "1,000",
+          {
+            "mean": "2206.03",
+            "sd": "4.75"
+          },
+          {
+            "mean": "2303.97",
+            "sd": "0.66"
+          },
+          "+97.94"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "0.75",
+          "1,500",
+          {
+            "mean": "2658.35",
+            "sd": "3.05"
+          },
+          {
+            "mean": "2757.41",
+            "sd": "6.03"
+          },
+          "+99.06"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.00",
+          "2,000",
+          {
+            "mean": "3197.64",
+            "sd": "4.84"
+          },
+          {
+            "mean": "3492.74",
+            "sd": "7.36"
+          },
+          "+295.10"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.25",
+          "2,500",
+          {
+            "mean": "3467.14",
+            "sd": "5.70"
+          },
+          {
+            "mean": "3545.93",
+            "sd": "5.28"
+          },
+          "+78.79"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "1.50",
+          "3,000",
+          {
+            "mean": "3651.57",
+            "sd": "6.03"
+          },
+          {
+            "mean": "3748.78",
+            "sd": "2.07"
+          },
+          "+97.21"
+        ]
+      }
+    ]
+  ]
+}

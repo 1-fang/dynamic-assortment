@@ -1,0 +1,139 @@
+{
+  "number": "2",
+  "label": "data",
+  "title": "Dataset populations, train/validation/test splits, and operating scenarios for the Expedia hotel-inventory and KuaiSearch-Lite product-exposure experiments. Expedia includes a fixed 30-hotel benchmark and destination markets grouped by historical search volume (Head, Regular, and Cold), while KuaiSearch includes search requests grouped by historical query frequency (Q-Head, Q-Regular, Q-Cold, and Q-Unseen).",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Setting",
+          "Population or split rule",
+          "Train",
+          "Validation",
+          "Test",
+          "Total"
+        ]
+      },
+      {
+        "heading": "A. Expedia30 (Li et al.): fixed catalog of 30 hotels and four customer types"
+      },
+      {
+        "cells": [
+          "Days",
+          "Chronological daily sequences",
+          "140",
+          "20",
+          "51",
+          "211"
+        ]
+      },
+      {
+        "cells": [
+          "Requests",
+          "Requests within the same days",
+          "16,796",
+          "2,417",
+          "6,159",
+          "25,372"
+        ]
+      },
+      {
+        "heading": "B. Expedia market groups: 2,244 destination markets; 303,834 retained requests"
+      },
+      {
+        "cells": [
+          "Overall",
+          "All three market groups",
+          "211,714",
+          "45,488",
+          "46,632",
+          "303,834"
+        ]
+      },
+      {
+        "cells": [
+          "Head",
+          "206 markets; n_m≥200",
+          "96,793",
+          "20,752",
+          "20,856",
+          "138,401"
+        ]
+      },
+      {
+        "cells": [
+          "Regular",
+          "813 markets; 50≤ n_m≤199",
+          "77,849",
+          "16,747",
+          "17,144",
+          "111,740"
+        ]
+      },
+      {
+        "cells": [
+          "Cold",
+          "1,225 markets; 20≤ n_m≤49",
+          "37,072",
+          "7,989",
+          "8,632",
+          "53,693"
+        ]
+      },
+      {
+        "heading": "C. KuaiSearch-Lite: 555,553 source search sessions; 384,392 retained sequential requests"
+      },
+      {
+        "cells": [
+          "Overall",
+          "All 44 eligible category clusters",
+          "299,200",
+          "75,081",
+          "10,111",
+          "384,392"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Head",
+          "Query support n_q≥50",
+          "40,431",
+          "9,409",
+          "1,458",
+          "51,298"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Regular",
+          "Query support 5≤ n_q≤49",
+          "73,005",
+          "14,840",
+          "2,047",
+          "89,892"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Cold",
+          "Query support 1≤ n_q≤4",
+          "185,764",
+          "12,681",
+          "1,574",
+          "200,019"
+        ]
+      },
+      {
+        "cells": [
+          "Q-Unseen",
+          "Query support n_q=0",
+          "0",
+          "38,151",
+          "5,032",
+          "43,183"
+        ]
+      }
+    ]
+  ]
+}

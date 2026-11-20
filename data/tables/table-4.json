@@ -1,0 +1,327 @@
+{
+  "number": "4",
+  "label": "embeddingcomparison",
+  "title": "Operating performance of the A2C Transformer with frozen text encoders and LLM-guided S/R augmentation. Panel A reports daily revenue for Expedia30 and revenue per search for the Expedia market groups; Panel B reports expected GMV per 1,000 requests for KuaiSearch. A2C-Trans., Sent.-Trans., and mE5 denote A2C Transformer, Sentence-Transformer, and multilingual E5, respectively.",
+  "notes": "Entries are means ± reported SDs, rounded to two decimals. All treatments use the A2C Transformer policy learner. Text Encoder denotes frozen pretrained semantic representations; Ours denotes Qwen-generated Global State Builder (S) and Local Reward Reshaper (R) programs. KuaiSearch prices are scaled by 1/100. Overall and query-support groups use their respective evaluation episodes and exposure budgets.",
+  "panels": [
+    [
+      {
+        "heading": "Panel A. Expedia: Hotel Inventory"
+      },
+      {
+        "cells": [
+          "Category",
+          "Treatment",
+          "30 Hotels",
+          "Head",
+          "Regular",
+          "Cold"
+        ]
+      },
+      {
+        "cells": [
+          "Base",
+          "A2C-Trans.",
+          {
+            "mean": "8093.58",
+            "sd": "34.55"
+          },
+          {
+            "mean": "101.27",
+            "sd": "2.06"
+          },
+          {
+            "mean": "102.35",
+            "sd": "2.41"
+          },
+          {
+            "mean": "76.60",
+            "sd": "3.47"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Text Encoder",
+          "mBERT",
+          {
+            "mean": "7805.88",
+            "sd": "25.47"
+          },
+          {
+            "mean": "113.05",
+            "sd": "1.41"
+          },
+          {
+            "mean": "113.22",
+            "sd": "1.14"
+          },
+          {
+            "mean": "90.73",
+            "sd": "4.48"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "Sent.-Trans.",
+          {
+            "mean": "7953.34",
+            "sd": "49.14"
+          },
+          {
+            "mean": "111.05",
+            "sd": "2.27"
+          },
+          {
+            "mean": "114.25",
+            "sd": "1.61"
+          },
+          {
+            "mean": "89.84",
+            "sd": "1.53"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "mE5",
+          {
+            "mean": "7848.09",
+            "sd": "78.89"
+          },
+          {
+            "mean": "112.86",
+            "sd": "0.85"
+          },
+          {
+            "mean": "110.86",
+            "sd": "3.44"
+          },
+          {
+            "mean": "88.48",
+            "sd": "2.01"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "BGE-M3",
+          {
+            "mean": "7805.98",
+            "sd": "42.81"
+          },
+          {
+            "mean": "109.06",
+            "sd": "1.36"
+          },
+          {
+            "mean": "105.33",
+            "sd": "5.19"
+          },
+          {
+            "mean": "77.54",
+            "sd": "1.26"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Ours",
+          "Qwen + S/R",
+          {
+            "mean": "8320.62",
+            "sd": "50.59"
+          },
+          {
+            "mean": "118.62",
+            "sd": "0.55"
+          },
+          {
+            "mean": "117.05",
+            "sd": "0.26"
+          },
+          {
+            "mean": "95.24",
+            "sd": "0.70"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Panel B. KuaiSearch: Product Exposure"
+      },
+      {
+        "cells": [
+          "Category",
+          "Treatment",
+          "Overall",
+          "Q-Head",
+          "Q-Regular",
+          "Q-Cold",
+          "Q-Unseen"
+        ]
+      },
+      {
+        "cells": [
+          "Base",
+          "A2C-Trans.",
+          {
+            "mean": "3951.96",
+            "sd": "0.99"
+          },
+          {
+            "mean": "4598.88",
+            "sd": "15.98"
+          },
+          {
+            "mean": "5708.23",
+            "sd": "18.13"
+          },
+          {
+            "mean": "3218.12",
+            "sd": "11.54"
+          },
+          {
+            "mean": "3197.64",
+            "sd": "4.84"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Text Encoder",
+          "mBERT",
+          {
+            "mean": "3990.85",
+            "sd": "2.91"
+          },
+          {
+            "mean": "4582.34",
+            "sd": "3.79"
+          },
+          {
+            "mean": "5808.29",
+            "sd": "19.03"
+          },
+          {
+            "mean": "3220.73",
+            "sd": "24.22"
+          },
+          {
+            "mean": "3199.70",
+            "sd": "2.20"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "Sent.-Trans.",
+          {
+            "mean": "3992.84",
+            "sd": "2.44"
+          },
+          {
+            "mean": "4582.45",
+            "sd": "1.31"
+          },
+          {
+            "mean": "6107.31",
+            "sd": "20.83"
+          },
+          {
+            "mean": "3229.87",
+            "sd": "11.97"
+          },
+          {
+            "mean": "3200.51",
+            "sd": "3.92"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "mE5",
+          {
+            "mean": "3988.58",
+            "sd": "4.52"
+          },
+          {
+            "mean": "4591.07",
+            "sd": "5.94"
+          },
+          {
+            "mean": "5921.44",
+            "sd": "4.03"
+          },
+          {
+            "mean": "3225.25",
+            "sd": "6.31"
+          },
+          {
+            "mean": "3203.37",
+            "sd": "2.29"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "BGE-M3",
+          {
+            "mean": "3992.07",
+            "sd": "3.68"
+          },
+          {
+            "mean": "4590.87",
+            "sd": "15.24"
+          },
+          {
+            "mean": "5717.94",
+            "sd": "19.23"
+          },
+          {
+            "mean": "3219.42",
+            "sd": "9.34"
+          },
+          {
+            "mean": "3147.29",
+            "sd": "2.75"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Ours",
+          "Qwen + S/R",
+          {
+            "mean": "4350.00",
+            "sd": "40.06"
+          },
+          {
+            "mean": "4894.02",
+            "sd": "16.99"
+          },
+          {
+            "mean": "6197.50",
+            "sd": "19.38"
+          },
+          {
+            "mean": "3520.41",
+            "sd": "7.21"
+          },
+          {
+            "mean": "3492.74",
+            "sd": "7.36"
+          }
+        ]
+      }
+    ]
+  ]
+}

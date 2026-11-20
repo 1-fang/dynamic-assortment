@@ -1,0 +1,127 @@
+[
+  {
+    "number": "1",
+    "title": "Comparison of the two dynamic assortment environments",
+    "data": "data/tables/table-1.json"
+  },
+  {
+    "number": "2",
+    "title": "Dataset populations, train/validation/test splits, and operating scenarios for the Expedia hotel-inventory and KuaiSearch-Lite product-exposure experiments. Expedia includes a fixed 30-hotel benchmark and destination markets grouped by historical search volume (Head, Regular, and Cold), while KuaiSearch includes search requests grouped by historical query frequency (Q-Head, Q-Regular, Q-Cold, and Q-Unseen).",
+    "data": "data/tables/table-2.json"
+  },
+  {
+    "number": "3",
+    "title": "Operating performance across the Expedia hotel-inventory and KuaiSearch product-exposure environments. Panel A reports daily revenue for Expedia30 and revenue per search for the Expedia destination-market groups. Panel B reports expected GMV per 1,000 requests for KuaiSearch, with product prices scaled by 1/100. Entries are means with standard deviations (SDs); bold values indicate the highest mean in each setting.",
+    "data": "data/tables/table-3.json"
+  },
+  {
+    "number": "4",
+    "title": "Operating performance of the A2C Transformer with frozen text encoders and LLM-guided S/R augmentation. Panel A reports daily revenue for Expedia30 and revenue per search for the Expedia market groups; Panel B reports expected GMV per 1,000 requests for KuaiSearch. A2C-Trans., Sent.-Trans., and mE5 denote A2C Transformer, Sentence-Transformer, and multilingual E5, respectively.",
+    "data": "data/tables/table-4.json"
+  },
+  {
+    "number": "5",
+    "title": "Global State Builder (S), Local Reward Reshaper (R), and human-designed augmentation",
+    "data": "data/tables/table-5.json"
+  },
+  {
+    "number": "6",
+    "title": "Operating performance of PPO with and without Qwen-generated S/R augmentation",
+    "data": "data/tables/table-6.json"
+  },
+  {
+    "number": "7",
+    "title": "Hotel inventory sensitivity under the A2C Transformer baseline and Qwen-guided S/R augmentation. Panel A reports daily revenue for Expedia30; Panel B reports revenue per search for Expedia destination markets.",
+    "data": "data/tables/table-7.json"
+  },
+  {
+    "number": "8",
+    "title": "Product-exposure sensitivity under the A2C Transformer baseline and Qwen-guided S/R augmentation. Panel A reports the mixed-query KuaiSearch Overall setting; Panel B reports separately budgeted query-support groups. Outcomes are expected GMV per 1,000 requests (prices scaled by 1/100).",
+    "data": "data/tables/table-8.json"
+  },
+  {
+    "number": "EC.1",
+    "title": "Permitted inputs and numerical roles of the executable interface",
+    "data": "data/tables/table-ec-1.json"
+  },
+  {
+    "number": "EC.2",
+    "title": "Output dimensions and decision roles",
+    "data": "data/tables/table-ec-2.json"
+  },
+  {
+    "number": "EC.3",
+    "title": "Individual dimensions of the selected fixed-hotel S program",
+    "data": "data/tables/table-ec-3.json"
+  },
+  {
+    "number": "EC.4",
+    "title": "Operating summaries supplied to the heterogeneous-hotel programs",
+    "data": "data/tables/table-ec-4.json"
+  },
+  {
+    "number": "EC.5",
+    "title": "Global recombination in the selected hotel S programs",
+    "data": "data/tables/table-ec-5.json"
+  },
+  {
+    "number": "EC.6",
+    "title": "Individual dimensions of the selected Overall product-search S program",
+    "data": "data/tables/table-ec-6.json"
+  },
+  {
+    "number": "EC.7",
+    "title": "Selected S dimensions for Q-Head",
+    "data": "data/tables/table-ec-7.json"
+  },
+  {
+    "number": "EC.8",
+    "title": "Selected S dimensions for Q-Regular",
+    "data": "data/tables/table-ec-8.json"
+  },
+  {
+    "number": "EC.9",
+    "title": "Selected S dimensions for Q-Cold",
+    "data": "data/tables/table-ec-9.json"
+  },
+  {
+    "number": "EC.10",
+    "title": "Selected S dimensions for Q-Unseen",
+    "data": "data/tables/table-ec-10.json"
+  },
+  {
+    "number": "EC.11",
+    "title": "Auxiliary feedback in the selected product-search programs",
+    "data": "data/tables/table-ec-11.json"
+  },
+  {
+    "number": "EC.12",
+    "title": "Generic representation treatments and their native output dimensions",
+    "data": "data/tables/table-ec-12.json"
+  },
+  {
+    "number": "EC.13",
+    "title": "Frozen-embedding results across operating settings: GRU.",
+    "data": "data/tables/table-ec-13.json"
+  },
+  {
+    "number": "EC.14",
+    "title": "Frozen-embedding results across operating settings: RNN-Pointer.",
+    "data": "data/tables/table-ec-14.json"
+  },
+  {
+    "number": "EC.15",
+    "title": "Frozen-embedding results across operating settings: Transformer-Pointer.",
+    "data": "data/tables/table-ec-15.json"
+  },
+  {
+    "number": "EC.16",
+    "title": "Complete frozen-migration resource grid for Base and Full policies",
+    "data": "data/tables/table-ec-16.json"
+  },
+  {
+    "number": "Box EC.1 guide",
+    "title": "S/R prompt parameter guide and example",
+    "data": "data/tables/prompt-parameters.json"
+  }
+]

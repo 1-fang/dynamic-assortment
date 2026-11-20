@@ -1,0 +1,251 @@
+{
+  "number": "5",
+  "label": "channelexploration",
+  "title": "Global State Builder (S), Local Reward Reshaper (R), and human-designed augmentation",
+  "notes": "Values are means ± SD, shown to two decimal places. Human-designed S/R uses the same output dimensions as the LLM-generated programs: eight global features and three features per hotel for 30 hotels, and eight global features and four features per candidate in the other settings. S-only and R-only retain the selected Qwen program while enabling one interface; Full S/R enables both. Evaluation uses the original business revenue.",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Setting",
+          "Base",
+          "S-only",
+          "R-only",
+          "Full S/R (Qwen)",
+          "Human-designed S/R"
+        ]
+      },
+      {
+        "heading": "Panel A. Expedia: hotel inventory"
+      },
+      {
+        "cells": [
+          "30 hotels",
+          {
+            "mean": "8093.58",
+            "sd": "34.55"
+          },
+          {
+            "mean": "8195.24",
+            "sd": "61.64"
+          },
+          {
+            "mean": "8295.63",
+            "sd": "37.10"
+          },
+          {
+            "mean": "8320.62",
+            "sd": "50.59"
+          },
+          {
+            "mean": "8113.95",
+            "sd": "25.53"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Head",
+          {
+            "mean": "101.27",
+            "sd": "2.06"
+          },
+          {
+            "mean": "112.62",
+            "sd": "1.76"
+          },
+          {
+            "mean": "111.73",
+            "sd": "1.91"
+          },
+          {
+            "mean": "118.62",
+            "sd": "0.55"
+          },
+          {
+            "mean": "112.74",
+            "sd": "0.76"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Regular",
+          {
+            "mean": "102.35",
+            "sd": "2.41"
+          },
+          {
+            "mean": "108.80",
+            "sd": "1.27"
+          },
+          {
+            "mean": "112.71",
+            "sd": "0.96"
+          },
+          {
+            "mean": "117.05",
+            "sd": "0.26"
+          },
+          {
+            "mean": "110.16",
+            "sd": "0.79"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Cold",
+          {
+            "mean": "76.60",
+            "sd": "3.47"
+          },
+          {
+            "mean": "86.99",
+            "sd": "2.22"
+          },
+          {
+            "mean": "90.27",
+            "sd": "3.27"
+          },
+          {
+            "mean": "95.24",
+            "sd": "0.70"
+          },
+          {
+            "mean": "86.55",
+            "sd": "0.71"
+          }
+        ]
+      },
+      {
+        "heading": "Panel B. KuaiSearch: product exposure"
+      },
+      {
+        "cells": [
+          "Q-Head",
+          {
+            "mean": "4598.88",
+            "sd": "15.98"
+          },
+          {
+            "mean": "4629.75",
+            "sd": "16.71"
+          },
+          {
+            "mean": "4678.19",
+            "sd": "14.92"
+          },
+          {
+            "mean": "4894.02",
+            "sd": "16.99"
+          },
+          {
+            "mean": "4675.38",
+            "sd": "6.71"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Regular",
+          {
+            "mean": "5708.23",
+            "sd": "18.13"
+          },
+          {
+            "mean": "5987.64",
+            "sd": "18.15"
+          },
+          {
+            "mean": "5874.13",
+            "sd": "17.19"
+          },
+          {
+            "mean": "6197.50",
+            "sd": "19.38"
+          },
+          {
+            "mean": "6009.24",
+            "sd": "9.75"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Cold",
+          {
+            "mean": "3218.12",
+            "sd": "11.54"
+          },
+          {
+            "mean": "3226.35",
+            "sd": "9.24"
+          },
+          {
+            "mean": "3221.98",
+            "sd": "6.18"
+          },
+          {
+            "mean": "3520.41",
+            "sd": "7.21"
+          },
+          {
+            "mean": "3517.48",
+            "sd": "5.85"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Q-Unseen",
+          {
+            "mean": "3197.64",
+            "sd": "4.84"
+          },
+          {
+            "mean": "3219.65",
+            "sd": "6.18"
+          },
+          {
+            "mean": "3213.34",
+            "sd": "6.56"
+          },
+          {
+            "mean": "3492.74",
+            "sd": "7.36"
+          },
+          {
+            "mean": "3274.57",
+            "sd": "6.10"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Overall",
+          {
+            "mean": "3951.96",
+            "sd": "0.99"
+          },
+          {
+            "mean": "4155.42",
+            "sd": "8.19"
+          },
+          {
+            "mean": "4219.43",
+            "sd": "5.14"
+          },
+          {
+            "mean": "4350.00",
+            "sd": "40.06"
+          },
+          {
+            "mean": "3951.61",
+            "sd": "6.34"
+          }
+        ]
+      }
+    ]
+  ]
+}

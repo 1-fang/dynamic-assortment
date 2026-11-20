@@ -1,0 +1,38 @@
+{
+  "number": "EC.5",
+  "label": "sr_hotel_recombination",
+  "title": "Global recombination in the selected hotel S programs",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Market group",
+          "Dimensions changed",
+          "Operating relationships introduced"
+        ]
+      },
+      {
+        "cells": [
+          "Head",
+          "G1, G3, G4, and G6",
+          "The time index adds 0.50 times coverage; the pressure index subtracts 0.30 times holding value; holding value adds 0.20 times current matching; value dispersion adds 0.10 times substitute density."
+        ]
+      },
+      {
+        "cells": [
+          "Regular",
+          "G2, G3, and G8",
+          "Coverage adds 0.25 times holding value; the pressure index subtracts 0.15 times the time index; the support summary is multiplied by 1.25."
+        ]
+      },
+      {
+        "cells": [
+          "Cold",
+          "G1, G3, G4, G5, and G7",
+          "The time index adds 0.50 times coverage and pressure subtracts 0.30 times holding value. Holding value is multiplied by 1.20 plus 0.80 times matching; matching adds 0.10 times value dispersion; substitute density subtracts 0.20 times the revised pressure index."
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "number": "7",
+  "label": "resourceexpedia",
+  "title": "Hotel inventory sensitivity under the A2C Transformer baseline and Qwen-guided S/R augmentation. Panel A reports daily revenue for Expedia30; Panel B reports revenue per search for Expedia destination markets.",
+  "notes": "Entries are means ± reported SDs. Each hotel starts with q inventory units, consumed only upon booking. Difference is Qwen S/R minus A2C Transformer, calculated from the displayed means. Both policies are trained and evaluated at each reported inventory level. The reporting units differ between panels and should not be compared directly.",
+  "panels": [
+    [
+      {
+        "heading": "Panel A. Expedia30: Fixed 30-Hotel Catalog"
+      },
+      {
+        "cells": [
+          "Setting",
+          "Inventory q",
+          "A2C Transformer",
+          "Qwen S/R",
+          "Difference"
+        ]
+      },
+      {
+        "cells": [
+          "Expedia30",
+          "1",
+          {
+            "mean": "4618.75",
+            "sd": "8.52"
+          },
+          {
+            "mean": "4921.03",
+            "sd": "9.91"
+          },
+          "+302.28"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "2",
+          {
+            "mean": "8093.58",
+            "sd": "34.55"
+          },
+          {
+            "mean": "8320.62",
+            "sd": "50.59"
+          },
+          "+227.04"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "3",
+          {
+            "mean": "10365.53",
+            "sd": "115.65"
+          },
+          {
+            "mean": "10379.30",
+            "sd": "67.64"
+          },
+          "+13.77"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "4",
+          {
+            "mean": "11818.92",
+            "sd": "38.98"
+          },
+          {
+            "mean": "12807.68",
+            "sd": "65.26"
+          },
+          "+988.76"
+        ]
+      },
+      {
+        "heading": "Panel B. Expedia Destination Markets"
+      },
+      {
+        "cells": [
+          "Market group",
+          "Inventory q",
+          "A2C Transformer",
+          "Qwen S/R",
+          "Difference"
+        ]
+      },
+      {
+        "cells": [
+          "Head",
+          "1",
+          {
+            "mean": "101.27",
+            "sd": "2.06"
+          },
+          {
+            "mean": "118.62",
+            "sd": "0.55"
+          },
+          "+17.35"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "2",
+          {
+            "mean": "138.34",
+            "sd": "3.59"
+          },
+          {
+            "mean": "158.76",
+            "sd": "2.47"
+          },
+          "+20.42"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "3",
+          {
+            "mean": "142.82",
+            "sd": "0.54"
+          },
+          {
+            "mean": "149.98",
+            "sd": "1.54"
+          },
+          "+7.16"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "4",
+          {
+            "mean": "144.44",
+            "sd": "1.79"
+          },
+          {
+            "mean": "147.00",
+            "sd": "0.24"
+          },
+          "+2.56"
+        ]
+      },
+      {
+        "cells": [
+          "Regular",
+          "1",
+          {
+            "mean": "102.35",
+            "sd": "2.41"
+          },
+          {
+            "mean": "117.05",
+            "sd": "0.26"
+          },
+          "+14.70"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "2",
+          {
+            "mean": "129.81",
+            "sd": "3.24"
+          },
+          {
+            "mean": "142.13",
+            "sd": "0.89"
+          },
+          "+12.32"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "3",
+          {
+            "mean": "139.92",
+            "sd": "1.75"
+          },
+          {
+            "mean": "152.70",
+            "sd": "0.28"
+          },
+          "+12.78"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "4",
+          {
+            "mean": "147.48",
+            "sd": "3.41"
+          },
+          {
+            "mean": "159.28",
+            "sd": "0.25"
+          },
+          "+11.80"
+        ]
+      },
+      {
+        "cells": [
+          "Cold",
+          "1",
+          {
+            "mean": "76.60",
+            "sd": "3.47"
+          },
+          {
+            "mean": "95.24",
+            "sd": "0.70"
+          },
+          "+18.64"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "2",
+          {
+            "mean": "89.71",
+            "sd": "2.05"
+          },
+          {
+            "mean": "112.31",
+            "sd": "0.54"
+          },
+          "+22.60"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "3",
+          {
+            "mean": "119.19",
+            "sd": "1.58"
+          },
+          {
+            "mean": "130.10",
+            "sd": "0.47"
+          },
+          "+10.91"
+        ]
+      },
+      {
+        "cells": [
+          "",
+          "4",
+          {
+            "mean": "124.75",
+            "sd": "2.08"
+          },
+          {
+            "mean": "131.21",
+            "sd": "0.18"
+          },
+          "+6.46"
+        ]
+      }
+    ]
+  ]
+}

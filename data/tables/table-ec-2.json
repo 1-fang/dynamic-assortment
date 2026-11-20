@@ -1,0 +1,42 @@
+{
+  "number": "EC.2",
+  "label": "sr_dimensions_detail",
+  "title": "Output dimensions and decision roles",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Setting",
+          "Global S",
+          "Candidate S",
+          "Reward output"
+        ]
+      },
+      {
+        "cells": [
+          "Fixed 30-hotel Expedia",
+          "8 dimensions",
+          "3 per hotel; 98 dimensions in total",
+          "One scalar for each transition"
+        ]
+      },
+      {
+        "cells": [
+          "Expedia Head, Regular, and Cold",
+          "8 dimensions",
+          "4 per candidate hotel",
+          "One scalar for each request"
+        ]
+      },
+      {
+        "cells": [
+          "KuaiSearch Overall and four Query groups",
+          "8 dimensions",
+          "4 per candidate product",
+          "One scalar for each request"
+        ]
+      }
+    ]
+  ]
+}

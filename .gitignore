@@ -1,0 +1,11 @@
+/__pycache__/
+__pycache__/
+.venv/
+.env
+.env.*
+.DS_Store
+/out/
+*.pyc
+*.pt
+*.pth
+*.ckpt

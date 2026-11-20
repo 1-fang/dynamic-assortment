@@ -1,0 +1,52 @@
+{
+  "number": "EC.11",
+  "label": "sr_query_reward",
+  "title": "Auxiliary feedback in the selected product-search programs",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Setting",
+          "Score or comparison used",
+          "Training interpretation"
+        ]
+      },
+      {
+        "cells": [
+          "Overall",
+          "Selected-minus-feasible mean of C3, the frequency–remaining-time–budget feature; multiply by 0.1 and bound.",
+          "Adds feedback on a particular composite operating signal, rather than on the realized transaction. Its denominator makes the signal larger at lower budget ratios."
+        ]
+      },
+      {
+        "cells": [
+          "Q-Head",
+          "Selected-minus-feasible mean of the bounded historical click-to-display ratio.",
+          "Compares historical click efficiency directly. The supplied S output is not used by this reward function."
+        ]
+      },
+      {
+        "cells": [
+          "Q-Regular",
+          "Product of the selected-minus-feasible differences in (i) the product of relative CTR and relative CVR features and (ii) budget ratio times remaining time.",
+          "Rewards alignment in the signs of two relative differences. Both differences being negative also gives a positive product."
+        ]
+      },
+      {
+        "cells": [
+          "Q-Cold",
+          "Selected-minus-feasible difference in the log click/display signal, multiplied by the budget-ratio difference and remaining progress.",
+          "Combines relative response efficiency, relative exposure availability, and time; the signal vanishes when remaining progress is zero."
+        ]
+      },
+      {
+        "cells": [
+          "Q-Unseen",
+          "Selected-minus-feasible mean of C2, followed by a bounded transformation.",
+          "Uses the centered historical click-efficiency feature. The feasible mean after the nonlinear transformation is retained."
+        ]
+      }
+    ]
+  ]
+}

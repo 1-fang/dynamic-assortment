@@ -1,0 +1,101 @@
+{
+  "number": "EC.4",
+  "label": "sr_hotel_primitives",
+  "title": "Operating summaries supplied to the heterogeneous-hotel programs",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Input",
+          "Business meaning",
+          "How it is constructed"
+        ]
+      },
+      {
+        "cells": [
+          "B1",
+          "Remaining selling window",
+          "Remaining fraction of the episode, centered around zero."
+        ]
+      },
+      {
+        "cells": [
+          "B2",
+          "Inventory coverage",
+          "Bounded log ratio of total remaining inventory to estimated future effective demand. Negative values retain a meaning: less inventory relative to demand."
+        ]
+      },
+      {
+        "cells": [
+          "B3",
+          "Demand-pressure index",
+          "Average of a sigmoid transformation of hotel-level demand-to-stock pressure."
+        ]
+      },
+      {
+        "cells": [
+          "B4",
+          "Holding-value level",
+          "Bounded mean future holding-value proxy, scaled by the mean positive candidate price."
+        ]
+      },
+      {
+        "cells": [
+          "B5",
+          "Best current matching opportunity",
+          "Smooth maximum of current customer–hotel match, adjusted for the number of available hotels."
+        ]
+      },
+      {
+        "cells": [
+          "B6",
+          "Dispersion of current service values",
+          "Bounded coefficient of variation of match-adjusted current values."
+        ]
+      },
+      {
+        "cells": [
+          "B7",
+          "Substitute availability proxy",
+          "Higher when available hotels have similar standardized price, star, review, and location attributes."
+        ]
+      },
+      {
+        "cells": [
+          "B8",
+          "Support for the demand context",
+          "Average of hotel-support and destination-support summaries."
+        ]
+      },
+      {
+        "cells": [
+          "D1",
+          "Hotel demand pressure",
+          "Bounded log ratio of predicted future effective demand to current hotel inventory."
+        ]
+      },
+      {
+        "cells": [
+          "D2",
+          "Current request–hotel match",
+          "Centered combination of price affordability, star fit, and hotel-quality indicators."
+        ]
+      },
+      {
+        "cells": [
+          "D3",
+          "Sell-now advantage",
+          "Bounded difference between current match-adjusted value and the scaled future holding-value proxy."
+        ]
+      },
+      {
+        "cells": [
+          "D4",
+          "Historical support",
+          "Bounded logarithmic transformation of training support for that destination–hotel pair."
+        ]
+      }
+    ]
+  ]
+}

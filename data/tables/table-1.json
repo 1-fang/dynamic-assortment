@@ -1,0 +1,59 @@
+{
+  "number": "1",
+  "label": "resource-regimes",
+  "title": "Comparison of the two dynamic assortment environments",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Expedia: Hotel booking",
+          "KuaiSearch: Product search"
+        ]
+      },
+      {
+        "cells": [
+          "Request context",
+          "Customer hotel-search request",
+          "E-commerce search query"
+        ]
+      },
+      {
+        "cells": [
+          "Candidate alternatives",
+          "Available hotels",
+          "Retrieved products"
+        ]
+      },
+      {
+        "cells": [
+          "Assortment decision",
+          "Select hotels to offer",
+          "Select products to display"
+        ]
+      },
+      {
+        "cells": [
+          "Limited resource",
+          "Remaining hotel inventory",
+          "Remaining product exposure capacity"
+        ]
+      },
+      {
+        "cells": [
+          "Resource consumption",
+          "One unit upon a successful booking",
+          "One unit per displayed product, regardless of purchase"
+        ]
+      },
+      {
+        "cells": [
+          "Operating trade-off",
+          "Current booking revenue versus future inventory availability",
+          "Current display value versus future exposure opportunities"
+        ]
+      }
+    ]
+  ]
+}

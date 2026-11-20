@@ -1,0 +1,129 @@
+{
+  "number": "6",
+  "label": "pporobustness",
+  "title": "Operating performance of PPO with and without Qwen-generated S/R augmentation",
+  "notes": "Means ± reported SD. Hotel and product-search units follow the corresponding panels; Overall and Query resource paths are distinct. Bold marks the larger reported mean, not statistical significance.",
+  "panels": [
+    [
+      {
+        "heading": "Panel A. Expedia: Hotel Inventory"
+      },
+      {
+        "cells": [
+          "Method",
+          "30 Hotels revenue/day",
+          "Head revenue/search",
+          "Regular revenue/search",
+          "Cold revenue/search"
+        ]
+      },
+      {
+        "cells": [
+          "PPO",
+          {
+            "mean": "8142.83",
+            "sd": "37.36"
+          },
+          {
+            "mean": "99.76",
+            "sd": "1.05"
+          },
+          {
+            "mean": "95.43",
+            "sd": "7.15"
+          },
+          {
+            "mean": "80.36",
+            "sd": "1.13"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "PPO + Qwen S/R",
+          {
+            "mean": "8353.10",
+            "sd": "44.21"
+          },
+          {
+            "mean": "113.35",
+            "sd": "1.35"
+          },
+          {
+            "mean": "109.69",
+            "sd": "7.33"
+          },
+          {
+            "mean": "95.72",
+            "sd": "4.92"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Panel B. KuaiSearch: Product Exposure"
+      },
+      {
+        "cells": [
+          "Method",
+          "Overall",
+          "Q-Head",
+          "Q-Regular",
+          "Q-Cold",
+          "Q-Unseen"
+        ]
+      },
+      {
+        "cells": [
+          "PPO",
+          {
+            "mean": "3987.08",
+            "sd": "19.42"
+          },
+          {
+            "mean": "4622.87",
+            "sd": "33.93"
+          },
+          {
+            "mean": "6104.21",
+            "sd": "19.99"
+          },
+          {
+            "mean": "3178.26",
+            "sd": "28.45"
+          },
+          {
+            "mean": "3191.65",
+            "sd": "22.89"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "PPO + Qwen S/R",
+          {
+            "mean": "4299.71",
+            "sd": "30.10"
+          },
+          {
+            "mean": "4647.63",
+            "sd": "43.81"
+          },
+          {
+            "mean": "6118.76",
+            "sd": "5.01"
+          },
+          {
+            "mean": "3198.84",
+            "sd": "45.40"
+          },
+          {
+            "mean": "3174.22",
+            "sd": "14.40"
+          }
+        ]
+      }
+    ]
+  ]
+}

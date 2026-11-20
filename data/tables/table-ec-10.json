@@ -1,0 +1,94 @@
+{
+  "number": "EC.10",
+  "label": "sr_query_unseen",
+  "title": "Selected S dimensions for Q-Unseen",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Operating content",
+          "Construction in words"
+        ]
+      },
+      {
+        "cells": [
+          "G1 / G2",
+          "Episode timing",
+          "Elapsed and remaining fractions."
+        ]
+      },
+      {
+        "cells": [
+          "G3",
+          "Typical price",
+          "Bounded mean log price."
+        ]
+      },
+      {
+        "cells": [
+          "G4",
+          "Historical click efficiency",
+          "Bounded mean clicks divided by one plus displays."
+        ]
+      },
+      {
+        "cells": [
+          "G5",
+          "Historical conversion efficiency",
+          "Bounded mean orders divided by one plus clicks."
+        ]
+      },
+      {
+        "cells": [
+          "G6",
+          "Exposure availability",
+          "Bounded mean budget ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G7",
+          "High-exposure share",
+          "Fraction of available products with budget ratios above 0.8."
+        ]
+      },
+      {
+        "cells": [
+          "G8",
+          "Low-exposure share",
+          "Fraction with budget ratios below 0.2."
+        ]
+      },
+      {
+        "cells": [
+          "C1",
+          "Relative price",
+          "Bounded log-price deviation."
+        ]
+      },
+      {
+        "cells": [
+          "C2",
+          "Relative click efficiency",
+          "Bounded historical click-efficiency deviation."
+        ]
+      },
+      {
+        "cells": [
+          "C3",
+          "Relative conversion efficiency",
+          "Bounded historical conversion-efficiency deviation."
+        ]
+      },
+      {
+        "cells": [
+          "C4",
+          "Relative exposure availability",
+          "Bounded budget-ratio deviation."
+        ]
+      }
+    ]
+  ]
+}

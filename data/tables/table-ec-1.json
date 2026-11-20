@@ -1,0 +1,73 @@
+{
+  "number": "EC.1",
+  "label": "inputs",
+  "title": "Permitted inputs and numerical roles of the executable interface",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Input class",
+          "Examples",
+          "Use and boundary"
+        ]
+      },
+      {
+        "cells": [
+          "Current request",
+          "Customer type, query, travel party",
+          "Observed before the current assortment"
+        ]
+      },
+      {
+        "cells": [
+          "Current candidate",
+          "Price, attributes, item metadata",
+          "Aligned with retained candidate identities"
+        ]
+      },
+      {
+        "cells": [
+          "Resource state",
+          "Inventory or exposure balance",
+          "Updated by the recorded consumption event"
+        ]
+      },
+      {
+        "cells": [
+          "Progress",
+          "Current position and episode length",
+          "Uses actual tail length and terminal flag"
+        ]
+      },
+      {
+        "cells": [
+          "Training summaries",
+          "Frequency, conversion, confidence",
+          "Estimated on training data and then frozen"
+        ]
+      },
+      {
+        "cells": [
+          "Fitted primitives",
+          "Singleton expected value, demand approximation",
+          "Model predictions with stated units"
+        ]
+      },
+      {
+        "cells": [
+          "Feasibility mask",
+          "Valid, available candidate positions",
+          "Padding and depleted items excluded"
+        ]
+      },
+      {
+        "cells": [
+          "Excluded outcomes",
+          "Current purchase and future realized choice",
+          "Not supplied to the generated program"
+        ]
+      }
+    ]
+  ]
+}

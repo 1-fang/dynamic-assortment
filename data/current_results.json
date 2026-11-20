@@ -1,0 +1,936 @@
+{
+  "performance": [
+    {
+      "method": "LoggedTopK",
+      "scene": "Expedia30",
+      "reported": "5,905.22 ± 0.52"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Expedia Head",
+      "reported": "81.97 ± 0.89"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Expedia Regular",
+      "reported": "82.34 ± 0.35"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Expedia Cold",
+      "reported": "78.97 ± 0.71"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,952.35 ± 690.93"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Q-Head",
+      "reported": "4,413.53 ± 0.00"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Q-Regular",
+      "reported": "4,055.97 ± 0.00"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Q-Cold",
+      "reported": "3,170.41 ± 0.00"
+    },
+    {
+      "method": "LoggedTopK",
+      "scene": "Q-Unseen",
+      "reported": "3,159.40 ± 0.00"
+    },
+    {
+      "method": "Random",
+      "scene": "Expedia30",
+      "reported": "4,125.10 ± 0.24"
+    },
+    {
+      "method": "Random",
+      "scene": "Expedia Head",
+      "reported": "60.00 ± 0.15"
+    },
+    {
+      "method": "Random",
+      "scene": "Expedia Regular",
+      "reported": "69.79 ± 0.62"
+    },
+    {
+      "method": "Random",
+      "scene": "Expedia Cold",
+      "reported": "54.98 ± 1.09"
+    },
+    {
+      "method": "Random",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,933.70 ± 692.39"
+    },
+    {
+      "method": "Random",
+      "scene": "Q-Head",
+      "reported": "4,012.89 ± 13.75"
+    },
+    {
+      "method": "Random",
+      "scene": "Q-Regular",
+      "reported": "5,455.20 ± 32.46"
+    },
+    {
+      "method": "Random",
+      "scene": "Q-Cold",
+      "reported": "2,750.51 ± 8.42"
+    },
+    {
+      "method": "Random",
+      "scene": "Q-Unseen",
+      "reported": "2,850.90 ± 32.20"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Expedia30",
+      "reported": "5,506.02 ± 0.32"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Expedia Head",
+      "reported": "90.80 ± 0.31"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Expedia Regular",
+      "reported": "95.56 ± 0.54"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Expedia Cold",
+      "reported": "88.53 ± 0.68"
+    },
+    {
+      "method": "Myopic",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,145.93 ± 696.32"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Q-Head",
+      "reported": "4,211.53 ± 0.00"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Q-Regular",
+      "reported": "5,108.21 ± 19.15"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Q-Cold",
+      "reported": "3,145.25 ± 0.00"
+    },
+    {
+      "method": "Myopic",
+      "scene": "Q-Unseen",
+      "reported": "3,328.33 ± 0.00"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Expedia30",
+      "reported": "6,105.06 ± 0.19"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Expedia Head",
+      "reported": "85.10 ± 0.46"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Expedia Regular",
+      "reported": "81.03 ± 0.34"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Expedia Cold",
+      "reported": "79.88 ± 0.98"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,039.10 ± 10.24"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Q-Head",
+      "reported": "4,559.79 ± 8.58"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Q-Regular",
+      "reported": "5,756.98 ± 6.58"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Q-Cold",
+      "reported": "3,294.63 ± 16.82"
+    },
+    {
+      "method": "SlateQ Greedy",
+      "scene": "Q-Unseen",
+      "reported": "3,235.71 ± 13.20"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Expedia30",
+      "reported": "6,204.10 ± 1.71"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Expedia Head",
+      "reported": "82.37 ± 0.96"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Expedia Regular",
+      "reported": "79.69 ± 0.27"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Expedia Cold",
+      "reported": "80.06 ± 0.39"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,000.88 ± 11.47"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Q-Head",
+      "reported": "4,548.71 ± 17.85"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Q-Regular",
+      "reported": "5,654.53 ± 6.53"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Q-Cold",
+      "reported": "3,234.47 ± 26.13"
+    },
+    {
+      "method": "SlateQ TopK",
+      "scene": "Q-Unseen",
+      "reported": "3,222.24 ± 5.94"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Expedia30",
+      "reported": "8,100.06 ± 38.51"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Expedia Head",
+      "reported": "92.15 ± 2.17"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Expedia Regular",
+      "reported": "87.05 ± 1.34"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Expedia Cold",
+      "reported": "78.20 ± 9.49"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,947.13 ± 1.77"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Q-Head",
+      "reported": "4,619.82 ± 23.18"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Q-Regular",
+      "reported": "5,723.63 ± 1.85"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Q-Cold",
+      "reported": "3,201.06 ± 12.77"
+    },
+    {
+      "method": "A2C GRU",
+      "scene": "Q-Unseen",
+      "reported": "3,201.45 ± 5.58"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Expedia30",
+      "reported": "7,926.09 ± 77.96"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Expedia Head",
+      "reported": "93.12 ± 1.44"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Expedia Regular",
+      "reported": "85.72 ± 1.47"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Expedia Cold",
+      "reported": "77.20 ± 3.60"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,825.63 ± 5.41"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Q-Head",
+      "reported": "4,613.53 ± 15.03"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Q-Regular",
+      "reported": "5,419.88 ± 1.57"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Q-Cold",
+      "reported": "3,193.89 ± 13.24"
+    },
+    {
+      "method": "A2C RNN",
+      "scene": "Q-Unseen",
+      "reported": "3,197.14 ± 8.47"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Expedia30",
+      "reported": "8,093.58 ± 34.55"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Expedia Head",
+      "reported": "101.27 ± 2.06"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Expedia Regular",
+      "reported": "102.35 ± 2.41"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Expedia Cold",
+      "reported": "76.60 ± 3.47"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,951.96 ± 0.99"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Q-Head",
+      "reported": "4,598.88 ± 15.98"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Q-Regular",
+      "reported": "5,708.23 ± 18.13"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Q-Cold",
+      "reported": "3,218.12 ± 11.54"
+    },
+    {
+      "method": "A2C Transformer",
+      "scene": "Q-Unseen",
+      "reported": "3,197.64 ± 4.84"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Expedia30",
+      "reported": "8,320.62 ± 50.59"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Expedia Head",
+      "reported": "118.62 ± 0.55"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Expedia Regular",
+      "reported": "117.05 ± 0.26"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Expedia Cold",
+      "reported": "95.24 ± 0.70"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,350.00 ± 40.06"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Q-Head",
+      "reported": "4,894.02 ± 16.99"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Q-Regular",
+      "reported": "6,197.50 ± 19.38"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Q-Cold",
+      "reported": "3,520.41 ± 7.21"
+    },
+    {
+      "method": "Qwen + S/R",
+      "scene": "Q-Unseen",
+      "reported": "3,492.74 ± 7.36"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Expedia30",
+      "reported": "8,399.51 ± 9.19"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Expedia Head",
+      "reported": "117.81 ± 0.38"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Expedia Regular",
+      "reported": "109.47 ± 6.29"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Expedia Cold",
+      "reported": "89.21 ± 2.27"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,164.95 ± 37.99"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Q-Head",
+      "reported": "4,793.16 ± 16.29"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Q-Regular",
+      "reported": "6,015.45 ± 19.47"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Q-Cold",
+      "reported": "3,426.22 ± 6.39"
+    },
+    {
+      "method": "DeepSeek + S/R",
+      "scene": "Q-Unseen",
+      "reported": "3,399.56 ± 1.10"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Expedia30",
+      "reported": "8,177.95 ± 25.53"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Expedia Head",
+      "reported": "111.96 ± 0.85"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Expedia Regular",
+      "reported": "110.16 ± 0.79"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Expedia Cold",
+      "reported": "87.33 ± 0.94"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,964.79 ± 37.82"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Q-Head",
+      "reported": "4,690.24 ± 17.58"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Q-Regular",
+      "reported": "6,107.36 ± 19.23"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Q-Cold",
+      "reported": "3,520.58 ± 6.94"
+    },
+    {
+      "method": "GPT-4o-mini + S/R",
+      "scene": "Q-Unseen",
+      "reported": "3,294.17 ± 6.50"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Expedia30",
+      "reported": "8,431.92 ± 26.41"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Expedia Head",
+      "reported": "121.56 ± 1.09"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Expedia Regular",
+      "reported": "114.37 ± 3.01"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Expedia Cold",
+      "reported": "92.84 ± 3.24"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,265.06 ± 38.14"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Q-Head",
+      "reported": "4,993.83 ± 15.96"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Q-Regular",
+      "reported": "6,239.45 ± 0.00"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Q-Cold",
+      "reported": "3,626.22 ± 6.28"
+    },
+    {
+      "method": "GPT-5.4-mini + S/R",
+      "scene": "Q-Unseen",
+      "reported": "3,597.49 ± 9.38"
+    }
+  ],
+  "ppo": [
+    {
+      "method": "PPO",
+      "scene": "Expedia30",
+      "reported": "8,142.83 ± 37.36"
+    },
+    {
+      "method": "PPO",
+      "scene": "Expedia Head",
+      "reported": "99.76 ± 1.05"
+    },
+    {
+      "method": "PPO",
+      "scene": "Expedia Regular",
+      "reported": "95.43 ± 7.15"
+    },
+    {
+      "method": "PPO",
+      "scene": "Expedia Cold",
+      "reported": "80.36 ± 1.13"
+    },
+    {
+      "method": "PPO",
+      "scene": "KuaiSearch Overall",
+      "reported": "3,987.08 ± 19.42"
+    },
+    {
+      "method": "PPO",
+      "scene": "Q-Head",
+      "reported": "4,622.87 ± 33.93"
+    },
+    {
+      "method": "PPO",
+      "scene": "Q-Regular",
+      "reported": "6,104.21 ± 19.99"
+    },
+    {
+      "method": "PPO",
+      "scene": "Q-Cold",
+      "reported": "3,178.26 ± 28.45"
+    },
+    {
+      "method": "PPO",
+      "scene": "Q-Unseen",
+      "reported": "3,191.65 ± 22.89"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Expedia30",
+      "reported": "8,353.10 ± 44.21"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Expedia Head",
+      "reported": "113.35 ± 1.35"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Expedia Regular",
+      "reported": "109.69 ± 7.33"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Expedia Cold",
+      "reported": "95.72 ± 4.92"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "KuaiSearch Overall",
+      "reported": "4,299.71 ± 30.10"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Q-Head",
+      "reported": "4,647.63 ± 43.81"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Q-Regular",
+      "reported": "6,118.76 ± 5.01"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Q-Cold",
+      "reported": "3,198.84 ± 45.40"
+    },
+    {
+      "method": "PPO + Qwen S/R",
+      "scene": "Q-Unseen",
+      "reported": "3,174.22 ± 14.40"
+    }
+  ],
+  "resources": [
+    {
+      "scene": "Expedia30",
+      "level": "q=1",
+      "base": "4,618.75 ± 8.52",
+      "full": "4,921.03 ± 9.91"
+    },
+    {
+      "scene": "Expedia30",
+      "level": "q=2",
+      "base": "8,093.58 ± 34.55",
+      "full": "8,320.62 ± 50.59"
+    },
+    {
+      "scene": "Expedia30",
+      "level": "q=3",
+      "base": "10,365.53 ± 115.65",
+      "full": "10,379.30 ± 67.64"
+    },
+    {
+      "scene": "Expedia30",
+      "level": "q=4",
+      "base": "11,818.92 ± 38.98",
+      "full": "12,807.68 ± 65.26"
+    },
+    {
+      "scene": "Expedia Head",
+      "level": "q=1",
+      "base": "101.27 ± 2.06",
+      "full": "118.62 ± 0.55"
+    },
+    {
+      "scene": "Expedia Head",
+      "level": "q=2",
+      "base": "138.34 ± 3.59",
+      "full": "158.76 ± 2.47"
+    },
+    {
+      "scene": "Expedia Head",
+      "level": "q=3",
+      "base": "142.82 ± 0.54",
+      "full": "149.98 ± 1.54"
+    },
+    {
+      "scene": "Expedia Head",
+      "level": "q=4",
+      "base": "144.44 ± 1.79",
+      "full": "147.00 ± 0.24"
+    },
+    {
+      "scene": "Expedia Regular",
+      "level": "q=1",
+      "base": "102.35 ± 2.41",
+      "full": "117.05 ± 0.26"
+    },
+    {
+      "scene": "Expedia Regular",
+      "level": "q=2",
+      "base": "129.81 ± 3.24",
+      "full": "142.13 ± 0.89"
+    },
+    {
+      "scene": "Expedia Regular",
+      "level": "q=3",
+      "base": "139.92 ± 1.75",
+      "full": "152.70 ± 0.28"
+    },
+    {
+      "scene": "Expedia Regular",
+      "level": "q=4",
+      "base": "147.48 ± 3.41",
+      "full": "159.28 ± 0.25"
+    },
+    {
+      "scene": "Expedia Cold",
+      "level": "q=1",
+      "base": "76.60 ± 3.47",
+      "full": "95.24 ± 0.70"
+    },
+    {
+      "scene": "Expedia Cold",
+      "level": "q=2",
+      "base": "89.71 ± 2.05",
+      "full": "112.31 ± 0.54"
+    },
+    {
+      "scene": "Expedia Cold",
+      "level": "q=3",
+      "base": "119.19 ± 1.58",
+      "full": "130.10 ± 0.47"
+    },
+    {
+      "scene": "Expedia Cold",
+      "level": "q=4",
+      "base": "124.75 ± 2.08",
+      "full": "131.21 ± 0.18"
+    },
+    {
+      "scene": "KuaiSearch Overall",
+      "level": "rho=0.50",
+      "base": "2,453.35 ± 0.88",
+      "full": "2,645.47 ± 10.10"
+    },
+    {
+      "scene": "KuaiSearch Overall",
+      "level": "rho=0.75",
+      "base": "3,369.12 ± 1.96",
+      "full": "3,560.72 ± 2.78"
+    },
+    {
+      "scene": "KuaiSearch Overall",
+      "level": "rho=1.00",
+      "base": "3,951.96 ± 0.99",
+      "full": "4,350.00 ± 40.06"
+    },
+    {
+      "scene": "KuaiSearch Overall",
+      "level": "rho=1.25",
+      "base": "4,282.12 ± 2.43",
+      "full": "4,466.35 ± 20.10"
+    },
+    {
+      "scene": "KuaiSearch Overall",
+      "level": "rho=1.50",
+      "base": "4,482.91 ± 3.47",
+      "full": "4,571.10 ± 17.65"
+    },
+    {
+      "scene": "Q-Head",
+      "level": "rho=0.50",
+      "base": "2,845.08 ± 2.97",
+      "full": "2,894.09 ± 1.58"
+    },
+    {
+      "scene": "Q-Head",
+      "level": "rho=0.75",
+      "base": "3,827.08 ± 12.30",
+      "full": "3,924.64 ± 13.81"
+    },
+    {
+      "scene": "Q-Head",
+      "level": "rho=1.00",
+      "base": "4,598.88 ± 15.98",
+      "full": "4,894.02 ± 16.99"
+    },
+    {
+      "scene": "Q-Head",
+      "level": "rho=1.25",
+      "base": "4,899.28 ± 20.88",
+      "full": "5,021.30 ± 16.74"
+    },
+    {
+      "scene": "Q-Head",
+      "level": "rho=1.50",
+      "base": "5,394.94 ± 35.13",
+      "full": "5,691.54 ± 28.33"
+    },
+    {
+      "scene": "Q-Regular",
+      "level": "rho=0.50",
+      "base": "3,706.01 ± 0.89",
+      "full": "3,839.38 ± 1.31"
+    },
+    {
+      "scene": "Q-Regular",
+      "level": "rho=0.75",
+      "base": "4,610.08 ± 4.01",
+      "full": "4,878.46 ± 3.31"
+    },
+    {
+      "scene": "Q-Regular",
+      "level": "rho=1.00",
+      "base": "5,708.23 ± 18.13",
+      "full": "6,197.50 ± 19.38"
+    },
+    {
+      "scene": "Q-Regular",
+      "level": "rho=1.25",
+      "base": "6,339.33 ± 17.97",
+      "full": "6,652.76 ± 4.79"
+    },
+    {
+      "scene": "Q-Regular",
+      "level": "rho=1.50",
+      "base": "7,492.69 ± 6.17",
+      "full": "7,819.19 ± 13.14"
+    },
+    {
+      "scene": "Q-Cold",
+      "level": "rho=0.50",
+      "base": "2,029.75 ± 14.38",
+      "full": "2,137.14 ± 18.06"
+    },
+    {
+      "scene": "Q-Cold",
+      "level": "rho=0.75",
+      "base": "2,145.59 ± 12.46",
+      "full": "2,830.87 ± 12.16"
+    },
+    {
+      "scene": "Q-Cold",
+      "level": "rho=1.00",
+      "base": "3,218.12 ± 11.54",
+      "full": "3,520.41 ± 7.21"
+    },
+    {
+      "scene": "Q-Cold",
+      "level": "rho=1.25",
+      "base": "3,829.61 ± 10.52",
+      "full": "3,917.51 ± 13.79"
+    },
+    {
+      "scene": "Q-Cold",
+      "level": "rho=1.50",
+      "base": "4,099.29 ± 30.28",
+      "full": "4,195.43 ± 38.39"
+    },
+    {
+      "scene": "Q-Unseen",
+      "level": "rho=0.50",
+      "base": "2,206.03 ± 4.75",
+      "full": "2,303.97 ± 0.66"
+    },
+    {
+      "scene": "Q-Unseen",
+      "level": "rho=0.75",
+      "base": "2,658.35 ± 3.05",
+      "full": "2,757.41 ± 6.03"
+    },
+    {
+      "scene": "Q-Unseen",
+      "level": "rho=1.00",
+      "base": "3,197.64 ± 4.84",
+      "full": "3,492.74 ± 7.36"
+    },
+    {
+      "scene": "Q-Unseen",
+      "level": "rho=1.25",
+      "base": "3,467.14 ± 5.70",
+      "full": "3,545.93 ± 5.28"
+    },
+    {
+      "scene": "Q-Unseen",
+      "level": "rho=1.50",
+      "base": "3,651.57 ± 6.03",
+      "full": "3,748.78 ± 2.07"
+    }
+  ],
+  "embedding_rows": {
+    "Transformer-Pointer": [
+      [
+        "mBERT + mean pooling",
+        "7,805.88 ± 25.47",
+        "113.05 ± 1.41",
+        "113.22 ± 1.14",
+        "90.73 ± 4.48",
+        "3,990.85 ± 2.91",
+        "4,582.34 ± 3.79",
+        "5,808.29 ± 19.03",
+        "3,220.73 ± 24.22",
+        "3,199.70 ± 2.20"
+      ],
+      [
+        "Sentence-Transformer",
+        "7,953.34 ± 49.14",
+        "111.05 ± 2.27",
+        "114.25 ± 1.61",
+        "89.84 ± 1.53",
+        "3,992.84 ± 2.44",
+        "4,582.45 ± 1.31",
+        "6,107.31 ± 20.83",
+        "3,229.87 ± 11.97",
+        "3,200.51 ± 3.92"
+      ],
+      [
+        "Multilingual E5",
+        "7,848.09 ± 78.89",
+        "112.86 ± 0.85",
+        "110.86 ± 3.44",
+        "88.48 ± 2.01",
+        "3,988.58 ± 4.52",
+        "4,591.07 ± 5.94",
+        "5,921.44 ± 4.03",
+        "3,225.25 ± 6.31",
+        "3,203.37 ± 2.29"
+      ],
+      [
+        "BGE",
+        "7,805.98 ± 42.81",
+        "109.06 ± 1.36",
+        "105.33 ± 5.19",
+        "77.54 ± 1.26",
+        "3,992.07 ± 3.68",
+        "4,590.87 ± 15.24",
+        "5,717.94 ± 19.23",
+        "3,219.42 ± 9.34",
+        "3,147.29 ± 2.75"
+      ]
+    ]
+  }
+}

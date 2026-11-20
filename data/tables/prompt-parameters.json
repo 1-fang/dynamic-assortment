@@ -1,0 +1,157 @@
+{
+  "number": "Box EC.1 guide",
+  "label": "prompt_parameters",
+  "title": "S/R prompt parameter guide and example",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Parameter",
+          "Meaning",
+          "Hotel example"
+        ]
+      },
+      {
+        "cells": [
+          "TASK_DESCRIPTION",
+          "Decision problem and arrival sequence.",
+          "Select hotels for each arriving search."
+        ]
+      },
+      {
+        "cells": [
+          "BUSINESS_OBJECTIVE",
+          "Original performance measure and units.",
+          "Revenue per search."
+        ]
+      },
+      {
+        "cells": [
+          "RESOURCE_RULES",
+          "Capacity, depletion event, and display limit.",
+          "One unit per hotel; deduct on purchase."
+        ]
+      },
+      {
+        "cells": [
+          "INPUT_SCHEMA",
+          "Input variables, meanings, shapes, and timing.",
+          "Current search, hotel attributes, availability mask."
+        ]
+      },
+      {
+        "cells": [
+          "FROZEN_STATISTICS",
+          "Training estimates held fixed during use.",
+          "Demand forecasts and historical support."
+        ]
+      },
+      {
+        "cells": [
+          "TRANSITION_FIELDS",
+          "Action or subsequent information available to R.",
+          "Selected-hotel mask; no next-state input."
+        ]
+      },
+      {
+        "cells": [
+          "S_SIGNATURE",
+          "Exact function name and arguments for S.",
+          "revise_state(global_base, candidate_base, available)"
+        ]
+      },
+      {
+        "cells": [
+          "S_OUTPUT_SCHEMA",
+          "Structure, size, and type of S outputs.",
+          "Globals: [B,8]; hotels: [B,M,4]; float32."
+        ]
+      },
+      {
+        "cells": [
+          "GLOBAL_DIM",
+          "Dimensions describing the search and overall resource state.",
+          "8."
+        ]
+      },
+      {
+        "cells": [
+          "CANDIDATE_DIM",
+          "Dimensions describing each candidate hotel.",
+          "4 per hotel."
+        ]
+      },
+      {
+        "cells": [
+          "R_SIGNATURE",
+          "Exact function name and arguments for R.",
+          "intrinsic_reward(global_f, candidate_f, available, selected)"
+        ]
+      },
+      {
+        "cells": [
+          "R_OUTPUT_SCHEMA",
+          "Shape and observation unit of the R output.",
+          "[B] float32; one auxiliary score per search."
+        ]
+      },
+      {
+        "cells": [
+          "R_OUTPUT_BOUNDS",
+          "Allowed range of the auxiliary score.",
+          "[-1,1]."
+        ]
+      },
+      {
+        "cells": [
+          "AUXILIARY_WEIGHT_SCHEDULE",
+          "External weight on R over training epochs.",
+          "0.01 in epoch 1, falling linearly to 0 in epoch 6."
+        ]
+      },
+      {
+        "cells": [
+          "EMPTY_AND_TERMINAL_RULES",
+          "Rules for empty sets, empty offers, and episode ends.",
+          "Empty offer: -0.05; exclude unavailable hotels."
+        ]
+      },
+      {
+        "cells": [
+          "NUMERICAL_REQUIREMENTS",
+          "Rules that keep calculations well defined.",
+          "Protect denominators; return finite float32 values."
+        ]
+      },
+      {
+        "cells": [
+          "ALLOWED_LIBRARIES",
+          "Permitted libraries and operations.",
+          "NumPy only."
+        ]
+      },
+      {
+        "cells": [
+          "SELECTION_PROTOCOL",
+          "Checks, search budget, and validation rule.",
+          "Two-epoch probe; select by validation revenue."
+        ]
+      },
+      {
+        "cells": [
+          "PRIOR_PROGRAM_AND_FEEDBACK",
+          "Existing code and diagnostics for revision.",
+          "NONE initially; prior code and feedback later."
+        ]
+      },
+      {
+        "cells": [
+          "RETURN_FORMAT",
+          "Required format of the model response.",
+          "Python functions with explanatory comments."
+        ]
+      }
+    ]
+  ]
+}

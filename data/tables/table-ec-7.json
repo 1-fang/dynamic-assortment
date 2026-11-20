@@ -1,0 +1,94 @@
+{
+  "number": "EC.7",
+  "label": "sr_query_head",
+  "title": "Selected S dimensions for Q-Head",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Operating content",
+          "Construction in words"
+        ]
+      },
+      {
+        "cells": [
+          "G1 / G2",
+          "Episode timing",
+          "Elapsed and remaining fractions, respectively."
+        ]
+      },
+      {
+        "cells": [
+          "G3",
+          "Typical price",
+          "Bounded mean log price."
+        ]
+      },
+      {
+        "cells": [
+          "G4",
+          "Typical historical click efficiency",
+          "Bounded mean of the bounded click-to-display ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G5",
+          "Typical historical conversion efficiency",
+          "Bounded mean of the bounded order-to-click ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G6",
+          "Average exposure availability",
+          "Mean budget ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G7",
+          "Exposure level after a low-budget cap",
+          "Mean budget ratio after capping each ratio at 0.3."
+        ]
+      },
+      {
+        "cells": [
+          "G8",
+          "Click efficiency and prior exposure use",
+          "Mean bounded click efficiency multiplied by one minus the budget ratio."
+        ]
+      },
+      {
+        "cells": [
+          "C1",
+          "Relative price",
+          "Bounded deviation of log price from the available-set mean."
+        ]
+      },
+      {
+        "cells": [
+          "C2",
+          "Relative click efficiency",
+          "Bounded deviation of the bounded click-to-display ratio from its set mean."
+        ]
+      },
+      {
+        "cells": [
+          "C3",
+          "Relative conversion efficiency",
+          "Bounded deviation of the bounded order-to-click ratio from its set mean."
+        ]
+      },
+      {
+        "cells": [
+          "C4",
+          "Relative exposure availability",
+          "Bounded deviation of the budget ratio from its set mean."
+        ]
+      }
+    ]
+  ]
+}

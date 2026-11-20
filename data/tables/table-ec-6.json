@@ -1,0 +1,101 @@
+{
+  "number": "EC.6",
+  "label": "sr_overall_dimensions",
+  "title": "Individual dimensions of the selected Overall product-search S program",
+  "notes": "",
+  "panels": [
+    [
+      {
+        "cells": [
+          "Dimension",
+          "Operating content",
+          "Construction in words"
+        ]
+      },
+      {
+        "cells": [
+          "G1",
+          "Elapsed progress",
+          "Fraction of the episode already elapsed."
+        ]
+      },
+      {
+        "cells": [
+          "G2",
+          "Remaining progress",
+          "Fraction of the episode remaining."
+        ]
+      },
+      {
+        "cells": [
+          "G3",
+          "Price level",
+          "Average log price among feasible products."
+        ]
+      },
+      {
+        "cells": [
+          "G4",
+          "Immediate singleton opportunity",
+          "Average response-derived singleton value."
+        ]
+      },
+      {
+        "cells": [
+          "G5",
+          "Exposure availability",
+          "Average remaining-to-initial exposure ratio."
+        ]
+      },
+      {
+        "cells": [
+          "G6",
+          "Training presence",
+          "Average log training frequency."
+        ]
+      },
+      {
+        "cells": [
+          "G7",
+          "Historical order activity",
+          "Average log order count."
+        ]
+      },
+      {
+        "cells": [
+          "G8",
+          "Share of products with limited remaining exposure",
+          "Fraction of feasible products whose budget ratio is below one half."
+        ]
+      },
+      {
+        "cells": [
+          "C1",
+          "Relative price",
+          "Log price minus the feasible-set average, bounded to the program range."
+        ]
+      },
+      {
+        "cells": [
+          "C2",
+          "Historical order-to-display signal",
+          "Difference between log order and log display counts, bounded to the program range."
+        ]
+      },
+      {
+        "cells": [
+          "C3",
+          "Frequency, time, and exposure combined",
+          "Log training frequency multiplied by remaining progress and divided by one plus the budget ratio."
+        ]
+      },
+      {
+        "cells": [
+          "C4",
+          "Relative immediate opportunity",
+          "Singleton value minus its feasible-set mean, scaled by one plus the absolute mean and bounded."
+        ]
+      }
+    ]
+  ]
+}
