@@ -2,7 +2,6 @@
 <p align="center"><strong>A Knowledge-Guided Learning Approach</strong></p>
 <p align="center">
   <a href="#overview">Overview</a> ·
-  <a href="#quick-start">Quick start</a> ·
   <a href="EXHIBITS.md">Tables and figures</a> ·
   <a href="experiment/README.md">Experiment code</a>
 </p>
@@ -24,23 +23,6 @@ The framework uses an LLM during offline development to propose executable progr
 <br>
 <p align="center"><img src="assets/method.png" width="950" alt="Four-stage framework for task inputs, S/R synthesis, validation and learning, and constrained deployment"></p>
 </details>
-
-## Quick start
-
-Python 3.10 or newer. The released aggregate tables and plots can be reproduced on a CPU.
-
-```bash
-git clone https://github.com/1-fang/dynamic-assortment.git
-cd dynamic-assortment
-python -m pip install -r requirements.txt
-python scripts/render_tables.py
-python scripts/check_figure_data.py
-python scripts/plot_updated_results.py
-python scripts/draw_planning_figures.py
-python scripts/plot_deployment.py
-```
-
-The commands write Markdown tables and figures to `out/`. To inspect one exhibit, run `python scripts/render_tables.py --table 3`. The [exhibit index](EXHIBITS.md) links each manuscript table and figure to its input and script.
 
 | Directory | Contents |
 | --- | --- |
