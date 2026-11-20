@@ -1,0 +1,7 @@
+setting,method,reference,mean,sd,reference_mean,reference_sd,gain_pct
+Expedia Head,Qwen + S/R,A2C Transformer,118.62,0.55,101.27,2.06,17.13241829
+Expedia Head,Qwen + S/R,Myopic,118.62,0.55,90.80,0.31,30.63876652
+Expedia Regular,Qwen + S/R,A2C Transformer,117.05,0.26,102.35,2.41,14.36248168
+Expedia Regular,Qwen + S/R,Myopic,117.05,0.26,95.56,0.54,22.48848891
+Expedia Cold,Qwen + S/R,A2C Transformer,95.24,0.70,76.60,3.47,24.33420366
+Expedia Cold,Qwen + S/R,Myopic,95.24,0.70,88.53,0.68,7.57935163

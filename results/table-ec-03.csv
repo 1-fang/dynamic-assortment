@@ -1,0 +1,12 @@
+Feature,Operational meaning,Mathematical specification
+"$f_{t,1}^{\mathrm{global}}$",Stock-to-horizon balance,$\tanh\bigl(\frac{1}{30}\sum_{j=1}^{30} \tilde{q}_{tj} - \tau_t\bigr)$
+"$f_{t,2}^{\mathrm{global}}$",Segment price alignment,$\tanh\bigl(\bar{p}(x_t) - \bar{p}_t^{\mathrm{inv}}\bigr)$
+"$f_{t,3}^{\mathrm{global}}$",Catalog support confidence,$\tanh\bigl(\frac{1}{30}\sum_{j=1}^{30} c_j\bigr)$
+"$f_{t,4}^{\mathrm{global}}$",Stock-weighted demand pressure,Inventory-fraction-weighted average of $\pi_{tj}$ across the catalog
+"$f_{t,5}^{\mathrm{global}}$",Available-catalog price level,$\tanh(\bar{p}_t^{\mathrm{inv}})\ind\{V_t \neq \emptyset\}$
+"$f_{t,6}^{\mathrm{global}}$",Mean feasible demand pressure,$\tanh\bigl(\frac{1}{|V_t|}\sum_{j \in V_t} \pi_{tj}\bigr)$ for $V_t \neq \emptyset$ ($0$ otherwise)
+"$f_{t,7}^{\mathrm{global}}$",Price–pressure co-movement,"$\tanh\bigl(\frac{1}{|V_t|}\sum_{j \in V_t} \Delta\tilde{p}_{tj}\,\pi_{tj}\bigr)$ for $V_t \neq \emptyset$"
+"$f_{t,8}^{\mathrm{global}}$",Mean feasible price match,$\tanh\bigl(\frac{1}{|V_t|}\sum_{j \in V_t} m_{tj}\bigr)$ for $V_t \neq \emptyset$
+"$f_{tj,1}^{\mathrm{item}}$",Pressure-adjusted relative price,$\tilde{q}_{tj}\tanh\bigl(\Delta\tilde{p}_{tj} - 0.25\pi_{tj}\bigr)$
+"$f_{tj,2}^{\mathrm{item}}$",Horizon-adjusted match margin,$\tilde{q}_{tj}\tanh\bigl(m_{tj} - \tau_t \pi_{tj}\bigr)$
+"$f_{tj,3}^{\mathrm{item}}$",Late-horizon price-match index,$\tilde{q}_{tj}\tanh\bigl((1 - \tau_t)\Delta\tilde{p}_{tj} + 0.25 m_{tj}\bigr)$

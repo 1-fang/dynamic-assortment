@@ -1,0 +1,10 @@
+setting,method,reference,mean,sd,reference_mean,reference_sd,gain_pct
+Expedia30,PPO + Qwen S/R,PPO,8353.10,44.21,8142.83,37.36,2.58227177
+Expedia Head,PPO + Qwen S/R,PPO,113.35,1.35,99.76,1.05,13.62269447
+Expedia Regular,PPO + Qwen S/R,PPO,109.69,7.33,95.43,7.15,14.94289008
+Expedia Cold,PPO + Qwen S/R,PPO,95.72,4.92,80.36,1.13,19.11398706
+KuaiSearch Overall,PPO + Qwen S/R,PPO,4299.71,30.10,3987.08,19.42,7.84107668
+Q-Head,PPO + Qwen S/R,PPO,4647.63,43.81,4622.87,33.93,0.53559802
+Q-Regular,PPO + Qwen S/R,PPO,6118.76,5.01,6104.21,19.99,0.23836008
+Q-Cold,PPO + Qwen S/R,PPO,3198.84,45.40,3178.26,28.45,0.64752412
+Q-Unseen,PPO + Qwen S/R,PPO,3174.22,14.40,3191.65,22.89,-0.54611251

@@ -1,0 +1,17 @@
+Panel,Setting,Inventory q,A2C Transformer Mean,A2C Transformer SD,Qwen S/R Mean,Qwen S/R SD,Difference,Market group
+Panel A. Expedia30: Fixed 30-Hotel Catalog (Daily Revenue),Expedia30,1,4618.75,8.52,4921.03,9.91,+302.28,
+Panel A. Expedia30: Fixed 30-Hotel Catalog (Daily Revenue),Expedia30,2,8093.58,34.55,8320.62,50.59,+227.04,
+Panel A. Expedia30: Fixed 30-Hotel Catalog (Daily Revenue),Expedia30,3,10365.53,115.65,10379.30,67.64,+13.77,
+Panel A. Expedia30: Fixed 30-Hotel Catalog (Daily Revenue),Expedia30,4,11818.92,38.98,12807.68,65.26,+988.76,
+Panel B. Expedia Destination Markets (Revenue per Search),,1,101.27,2.06,118.62,0.55,+17.35,Head
+Panel B. Expedia Destination Markets (Revenue per Search),,2,138.34,3.59,158.76,2.47,+20.42,Head
+Panel B. Expedia Destination Markets (Revenue per Search),,3,142.82,0.54,149.98,1.54,+7.16,Head
+Panel B. Expedia Destination Markets (Revenue per Search),,4,144.44,1.79,147.00,0.24,+2.56,Head
+Panel B. Expedia Destination Markets (Revenue per Search),,1,102.35,2.41,117.05,0.26,+14.70,Regular
+Panel B. Expedia Destination Markets (Revenue per Search),,2,129.81,3.24,142.13,0.89,+12.32,Regular
+Panel B. Expedia Destination Markets (Revenue per Search),,3,139.92,1.75,152.70,0.28,+12.78,Regular
+Panel B. Expedia Destination Markets (Revenue per Search),,4,147.48,3.41,159.28,0.25,+11.80,Regular
+Panel B. Expedia Destination Markets (Revenue per Search),,1,76.60,3.47,95.24,0.70,+18.64,Cold
+Panel B. Expedia Destination Markets (Revenue per Search),,2,89.71,2.05,112.31,0.54,+22.60,Cold
+Panel B. Expedia Destination Markets (Revenue per Search),,3,119.19,1.58,130.10,0.47,+10.91,Cold
+Panel B. Expedia Destination Markets (Revenue per Search),,4,124.75,2.08,131.21,0.18,+6.46,Cold

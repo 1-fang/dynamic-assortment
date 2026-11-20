@@ -1,0 +1,7 @@
+Operational dimension,Expedia: Hotel inventory regime,KuaiSearch: Product exposure regime
+Arrival context $x_t$,Customer hotel-search request,E-commerce search query
+Candidate pool $C_t$,Fixed catalog or destination properties,Query-retrieved candidate products
+Scarce resource $r_{tj}$,Remaining room inventory $q_{tj}$,Remaining impression budget $b_{tj}$
+Depletion law,"Stochastic on purchase: $q_{t+1,j} = q_{tj} - \ind\{Y_t = j\}$","Deterministic on display: $b_{t+1,j} = b_{tj} - \ind\{j \in A_t\}$"
+Per-request consumption,At most $1$ unit across all $j \in A_t$,Exactly $|A_t|$ units (one per displayed item)
+Opportunity-cost weight,"Choice-weighted: $P_t(j \mid A_t, x_t)\mu_{tj}$",Unconditional per slot: $\mu_{tj}$ for each $j \in A_t$

@@ -1,0 +1,37 @@
+setting,method,reference,mean,sd,reference_mean,reference_sd,gain_pct
+Expedia30,Qwen + S/R,A2C Transformer,8320.62,50.59,8093.58,34.55,2.80518633
+Expedia30,DeepSeek + S/R,A2C Transformer,8399.51,9.19,8093.58,34.55,3.77990951
+Expedia30,GPT-4o-mini + S/R,A2C Transformer,8177.95,25.53,8093.58,34.55,1.04243116
+Expedia30,GPT-5.4-mini + S/R,A2C Transformer,8431.92,26.41,8093.58,34.55,4.18035035
+Expedia Head,Qwen + S/R,A2C Transformer,118.62,0.55,101.27,2.06,17.13241829
+Expedia Head,DeepSeek + S/R,A2C Transformer,117.81,0.38,101.27,2.06,16.33257628
+Expedia Head,GPT-4o-mini + S/R,A2C Transformer,111.96,0.85,101.27,2.06,10.55593957
+Expedia Head,GPT-5.4-mini + S/R,A2C Transformer,121.56,1.09,101.27,2.06,20.03554853
+Expedia Regular,Qwen + S/R,A2C Transformer,117.05,0.26,102.35,2.41,14.36248168
+Expedia Regular,DeepSeek + S/R,A2C Transformer,109.47,6.29,102.35,2.41,6.95652174
+Expedia Regular,GPT-4o-mini + S/R,A2C Transformer,110.16,0.79,102.35,2.41,7.63067904
+Expedia Regular,GPT-5.4-mini + S/R,A2C Transformer,114.37,3.01,102.35,2.41,11.74401563
+Expedia Cold,Qwen + S/R,A2C Transformer,95.24,0.70,76.60,3.47,24.33420366
+Expedia Cold,DeepSeek + S/R,A2C Transformer,89.21,2.27,76.60,3.47,16.46214099
+Expedia Cold,GPT-4o-mini + S/R,A2C Transformer,87.33,0.94,76.60,3.47,14.00783290
+Expedia Cold,GPT-5.4-mini + S/R,A2C Transformer,92.84,3.24,76.60,3.47,21.20104439
+KuaiSearch Overall,Qwen + S/R,A2C Transformer,4350.00,40.06,3951.96,0.99,10.07196429
+KuaiSearch Overall,DeepSeek + S/R,A2C Transformer,4164.95,37.99,3951.96,0.99,5.38947763
+KuaiSearch Overall,GPT-4o-mini + S/R,A2C Transformer,3964.79,37.82,3951.96,0.99,0.32464903
+KuaiSearch Overall,GPT-5.4-mini + S/R,A2C Transformer,4265.06,38.14,3951.96,0.99,7.92265104
+Q-Head,Qwen + S/R,A2C Transformer,4894.02,16.99,4598.88,15.98,6.41764951
+Q-Head,DeepSeek + S/R,A2C Transformer,4793.16,16.29,4598.88,15.98,4.22450684
+Q-Head,GPT-4o-mini + S/R,A2C Transformer,4690.24,17.58,4598.88,15.98,1.98657064
+Q-Head,GPT-5.4-mini + S/R,A2C Transformer,4993.83,15.96,4598.88,15.98,8.58796055
+Q-Regular,Qwen + S/R,A2C Transformer,6197.50,19.38,5708.23,18.13,8.57130844
+Q-Regular,DeepSeek + S/R,A2C Transformer,6015.45,19.47,5708.23,18.13,5.38205363
+Q-Regular,GPT-4o-mini + S/R,A2C Transformer,6107.36,19.23,5708.23,18.13,6.99218497
+Q-Regular,GPT-5.4-mini + S/R,A2C Transformer,6239.45,0.00,5708.23,18.13,9.30621226
+Q-Cold,Qwen + S/R,A2C Transformer,3520.41,7.21,3218.12,11.54,9.39337253
+Q-Cold,DeepSeek + S/R,A2C Transformer,3426.22,6.39,3218.12,11.54,6.46650840
+Q-Cold,GPT-4o-mini + S/R,A2C Transformer,3520.58,6.94,3218.12,11.54,9.39865512
+Q-Cold,GPT-5.4-mini + S/R,A2C Transformer,3626.22,6.28,3218.12,11.54,12.68131704
+Q-Unseen,Qwen + S/R,A2C Transformer,3492.74,7.36,3197.64,4.84,9.22868115
+Q-Unseen,DeepSeek + S/R,A2C Transformer,3399.56,1.10,3197.64,4.84,6.31465706
+Q-Unseen,GPT-4o-mini + S/R,A2C Transformer,3294.17,6.50,3197.64,4.84,3.01878886
+Q-Unseen,GPT-5.4-mini + S/R,A2C Transformer,3597.49,9.38,3197.64,4.84,12.50453459

@@ -1,0 +1,46 @@
+setting,method,reference,mean,sd,reference_mean,reference_sd,gain_pct
+Expedia30,mBERT,A2C-Trans.,7805.88,25.47,8093.58,34.55,-3.55466926
+Expedia30,Sentence-Trans.,A2C-Trans.,7953.34,49.14,8093.58,34.55,-1.73273137
+Expedia30,BGE-M3,A2C-Trans.,7805.98,42.81,8093.58,34.55,-3.55343371
+Expedia30,Multilingual E5,A2C-Trans.,7848.09,78.89,8093.58,34.55,-3.03314479
+Expedia30,Qwen + S/R,A2C-Trans.,8320.62,50.59,8093.58,34.55,2.80518633
+Expedia Head,mBERT,A2C-Trans.,113.05,1.41,101.27,2.06,11.63227017
+Expedia Head,Sentence-Trans.,A2C-Trans.,111.05,2.27,101.27,2.06,9.65735163
+Expedia Head,BGE-M3,A2C-Trans.,109.06,1.36,101.27,2.06,7.69230769
+Expedia Head,Multilingual E5,A2C-Trans.,112.86,0.85,101.27,2.06,11.44465291
+Expedia Head,Qwen + S/R,A2C-Trans.,118.62,0.55,101.27,2.06,17.13241829
+Expedia Regular,mBERT,A2C-Trans.,113.22,1.14,102.35,2.41,10.62042013
+Expedia Regular,Sentence-Trans.,A2C-Trans.,114.25,1.61,102.35,2.41,11.62677088
+Expedia Regular,BGE-M3,A2C-Trans.,105.33,5.19,102.35,2.41,2.91157792
+Expedia Regular,Multilingual E5,A2C-Trans.,110.86,3.44,102.35,2.41,8.31460674
+Expedia Regular,Qwen + S/R,A2C-Trans.,117.05,0.26,102.35,2.41,14.36248168
+Expedia Cold,mBERT,A2C-Trans.,90.73,4.48,76.60,3.47,18.44647520
+Expedia Cold,Sentence-Trans.,A2C-Trans.,89.84,1.53,76.60,3.47,17.28459530
+Expedia Cold,BGE-M3,A2C-Trans.,77.54,1.26,76.60,3.47,1.22715405
+Expedia Cold,Multilingual E5,A2C-Trans.,88.48,2.01,76.60,3.47,15.50913838
+Expedia Cold,Qwen + S/R,A2C-Trans.,95.24,0.70,76.60,3.47,24.33420366
+KuaiSearch Overall,mBERT,A2C-Trans.,3990.85,2.91,3951.96,0.99,0.98406866
+KuaiSearch Overall,Sentence-Trans.,A2C-Trans.,3992.84,2.44,3951.96,0.99,1.03442343
+KuaiSearch Overall,BGE-M3,A2C-Trans.,3992.07,3.68,3951.96,0.99,1.01493942
+KuaiSearch Overall,Multilingual E5,A2C-Trans.,3988.58,4.52,3951.96,0.99,0.92662881
+KuaiSearch Overall,Qwen + S/R,A2C-Trans.,4350.00,40.06,3951.96,0.99,10.07196429
+Q-Head,mBERT,A2C-Trans.,4582.34,3.79,4598.88,15.98,-0.35965279
+Q-Head,Sentence-Trans.,A2C-Trans.,4582.45,1.31,4598.88,15.98,-0.35726090
+Q-Head,BGE-M3,A2C-Trans.,4590.87,15.24,4598.88,15.98,-0.17417284
+Q-Head,Multilingual E5,A2C-Trans.,4591.07,5.94,4598.88,15.98,-0.16982396
+Q-Head,Qwen + S/R,A2C-Trans.,4894.02,16.99,4598.88,15.98,6.41764951
+Q-Regular,mBERT,A2C-Trans.,5808.29,19.03,5708.23,18.13,1.75290764
+Q-Regular,Sentence-Trans.,A2C-Trans.,6107.31,20.83,5708.23,18.13,6.99130904
+Q-Regular,BGE-M3,A2C-Trans.,5717.94,19.23,5708.23,18.13,0.17010527
+Q-Regular,Multilingual E5,A2C-Trans.,5921.44,4.03,5708.23,18.13,3.73513331
+Q-Regular,Qwen + S/R,A2C-Trans.,6197.50,19.38,5708.23,18.13,8.57130844
+Q-Cold,mBERT,A2C-Trans.,3220.73,24.22,3218.12,11.54,0.08110325
+Q-Cold,Sentence-Trans.,A2C-Trans.,3229.87,11.97,3218.12,11.54,0.36512001
+Q-Cold,BGE-M3,A2C-Trans.,3219.42,9.34,3218.12,11.54,0.04039626
+Q-Cold,Multilingual E5,A2C-Trans.,3225.25,6.31,3218.12,11.54,0.22155793
+Q-Cold,Qwen + S/R,A2C-Trans.,3520.41,7.21,3218.12,11.54,9.39337253
+Q-Unseen,mBERT,A2C-Trans.,3199.70,2.20,3197.64,4.84,0.06442251
+Q-Unseen,Sentence-Trans.,A2C-Trans.,3200.51,3.92,3197.64,4.84,0.08975369
+Q-Unseen,BGE-M3,A2C-Trans.,3147.29,2.75,3197.64,4.84,-1.57459877
+Q-Unseen,Multilingual E5,A2C-Trans.,3203.37,2.29,3197.64,4.84,0.17919466
+Q-Unseen,Qwen + S/R,A2C-Trans.,3492.74,7.36,3197.64,4.84,9.22868115

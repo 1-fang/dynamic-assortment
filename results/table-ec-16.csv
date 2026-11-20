@@ -1,0 +1,10 @@
+Setting,Reference capacity r_ref,Reference uplift (%),Grid minimum uplift (%),Grid maximum uplift (%),Uplift range (pp)
+Expedia30,q = 2,2.65,2.19,11.66,9.48
+Expedia Head,q = 1,17.13,5.06,17.13,12.08
+Expedia Regular,q = 1,11.48,9.24,11.48,2.24
+Expedia Cold,q = 1,7.03,7.03,11.88,4.85
+KuaiSearch Overall,ρ = 1.00,9.24,1.12,18.94,17.81
+KuaiSearch Q-Head,ρ = 1.00,6.42,0.28,8.83,8.55
+KuaiSearch Q-Regular,ρ = 1.00,3.80,2.80,3.80,1.00
+KuaiSearch Q-Cold,ρ = 1.00,1.67,0.44,9.17,8.73
+KuaiSearch Q-Unseen,ρ = 1.00,7.60,0.08,7.60,7.52

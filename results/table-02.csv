@@ -1,0 +1,12 @@
+Panel,Setting,Population definition and support rule,Train,Validation,Test,Total
+"A. Expedia30 (Li et al.): Fixed catalog of 30 hotels and four customer types (K = 4, reference q = 2)",Days,Chronological daily episodes,140,20,51,211
+"A. Expedia30 (Li et al.): Fixed catalog of 30 hotels and four customer types (K = 4, reference q = 2)",Requests,Customer arrivals within days,16796,2417,6159,25372
+"B. Expedia destination markets: 2,244 markets with variable candidate pools (reference q = 1)",All groups (sum),Aggregate across the three market tiers,211714,45488,46632,303834
+"B. Expedia destination markets: 2,244 markets with variable candidate pools (reference q = 1)",Head,206 markets; training searches n_m ≥ 200,96793,20752,20856,138401
+"B. Expedia destination markets: 2,244 markets with variable candidate pools (reference q = 1)",Regular,813 markets; training searches 50 ≤ n_m ≤ 199,77849,16747,17144,111740
+"B. Expedia destination markets: 2,244 markets with variable candidate pools (reference q = 1)",Cold,"1,225 markets; training searches 20 ≤ n_m ≤ 49",37072,7989,8632,53693
+"C. KuaiSearch-Lite: 555,553 source sessions across 44 category clusters (K = 10, reference ρ = 1.00)",Overall,Mixed-query episodes across all 44 clusters,299200,75081,10111,384392
+"C. KuaiSearch-Lite: 555,553 source sessions across 44 category clusters (K = 10, reference ρ = 1.00)",Q-Head,Frequent queries; n_q ≥ 50,40431,9409,1458,51298
+"C. KuaiSearch-Lite: 555,553 source sessions across 44 category clusters (K = 10, reference ρ = 1.00)",Q-Regular,Moderate queries; 5 ≤ n_q ≤ 49,73005,14840,2047,89892
+"C. KuaiSearch-Lite: 555,553 source sessions across 44 category clusters (K = 10, reference ρ = 1.00)",Q-Cold,Sparse queries; 1 ≤ n_q ≤ 4,185764,12681,1574,200019
+"C. KuaiSearch-Lite: 555,553 source sessions across 44 category clusters (K = 10, reference ρ = 1.00)",Q-Unseen,Novel queries at evaluation; n_q = 0,0,38151,5032,43183

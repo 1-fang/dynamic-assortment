@@ -1,0 +1,10 @@
+Feature,Operational meaning,Mathematical specification (means $\bar{\cdot}_{V_t}$ taken over feasible items $j \in V_t$)
+"$f_{t,1:2}^{\mathrm{global}}$",Episode timing,Elapsed fraction $1 - \tau_t$ and remaining fraction $\tau_t$
+"$f_{t,3:4}^{\mathrm{global}}$",Pool price and singleton value,Mean log price $\overline{\ell^p}_{V_t}$ and mean singleton expected revenue $\overline{\widehat{u}^{(1)}}_{V_t}$
+"$f_{t,5}^{\mathrm{global}}$",Mean exposure availability,Mean remaining budget ratio $\overline{\tilde{b}}_{V_t} = \frac{1}{|V_t|}\sum_{j \in V_t} \tilde{b}_{tj}$
+"$f_{t,6:7}^{\mathrm{global}}$",Pool frequency and order depth,Mean $\log(1 + f_j)$ and mean $\log(1 + \text{ord}_j)$ across $j \in V_t$
+"$f_{t,8}^{\mathrm{global}}$",Tight-budget candidate share,$\frac{1}{|V_t|}\sum_{j \in V_t} \ind\{\tilde{b}_{tj} < 0.50\}$
+"$f_{tj,1}^{\mathrm{item}}$",Feasible-centered log price,$\tanh\bigl(\ell_{tj}^p - \overline{\ell^p}_{V_t}\bigr)$
+"$f_{tj,2}^{\mathrm{item}}$",Historical order-to-display margin,$\tanh\bigl(\log(1 + \text{ord}_j) - \log(1 + \text{disp}_j)\bigr)$
+"$f_{tj,3}^{\mathrm{item}}$",Horizon-weighted exposure scarcity,"$\log(1 + f_j)\,\tau_t / (1 + \tilde{b}_{tj})$ (Equation (<ref>))"
+"$f_{tj,4}^{\mathrm{item}}$",Normalized singleton advantage,$\tanh\!\bigl((\widehat{u}_{tj}^{(1)} - \overline{\widehat{u}^{(1)}}_{V_t}) / (1 + |\overline{\widehat{u}^{(1)}}_{V_t}|)\bigr)$

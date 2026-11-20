@@ -1,0 +1,13 @@
+Panel,Category,Treatment,30 Hotels Mean,30 Hotels SD,Head Mean,Head SD,Regular Mean,Regular SD,Cold Mean,Cold SD,Overall Mean,Overall SD,Q-Head Mean,Q-Head SD,Q-Regular Mean,Q-Regular SD,Q-Cold Mean,Q-Cold SD,Q-Unseen Mean,Q-Unseen SD
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Base,A2C-Trans.,8093.58,34.55,101.27,2.06,102.35,2.41,76.60,3.47,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Text Encoder,mBERT,7805.88,25.47,113.05,1.41,113.22,1.14,90.73,4.48,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Text Encoder,Sentence-Trans.,7953.34,49.14,111.05,2.27,114.25,1.61,89.84,1.53,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Text Encoder,Multilingual E5,7848.09,78.89,112.86,0.85,110.86,3.44,88.48,2.01,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Text Encoder,BGE-M3,7805.98,42.81,109.06,1.36,105.33,5.19,77.54,1.26,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Compiled,Qwen + S/R,8320.62,50.59,118.62,0.55,117.05,0.26,95.24,0.70,,,,,,,,,,
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Base,A2C-Trans.,,,,,,,,,3951.96,0.99,4598.88,15.98,5708.23,18.13,3218.12,11.54,3197.64,4.84
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Text Encoder,mBERT,,,,,,,,,3990.85,2.91,4582.34,3.79,5808.29,19.03,3220.73,24.22,3199.70,2.20
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Text Encoder,Sentence-Trans.,,,,,,,,,3992.84,2.44,4582.45,1.31,6107.31,20.83,3229.87,11.97,3200.51,3.92
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Text Encoder,Multilingual E5,,,,,,,,,3988.58,4.52,4591.07,5.94,5921.44,4.03,3225.25,6.31,3203.37,2.29
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Text Encoder,BGE-M3,,,,,,,,,3992.07,3.68,4590.87,15.24,5717.94,19.23,3219.42,9.34,3147.29,2.75
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Compiled,Qwen + S/R,,,,,,,,,4350.00,40.06,4894.02,16.99,6197.50,19.38,3520.41,7.21,3492.74,7.36

@@ -1,0 +1,5 @@
+Encoder treatment,Native dim.,Pretrained architecture and pooling convention
+mBERT,768,Mean-pooled token representations from multilingual BERT
+Sentence-Transformer,768,Siamese multilingual MPNet sentence embeddings
+BGE-M3,1024,Dense multilingual retrieval embeddings
+Multilingual E5,1024,Asymmetric query/passage-prefixed multilingual embeddings

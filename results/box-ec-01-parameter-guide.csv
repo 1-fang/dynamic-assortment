@@ -1,0 +1,18 @@
+Template field,Operational role,Heterogeneous-hotel instantiation
+TASK_DESCRIPTION,Sequential decision setting,Dynamic hotel assortment across arriving searches
+BUSINESS_OBJECTIVE,Held-out selection metric,Realized booking revenue per search ($J_{\mathrm{search}}$)
+RESOURCE_RULES,Depletion law and cardinality,Initial stock $q$; deduct $1$ unit on booking; $|A_t| \le K$
+INPUT_SCHEMA,Pre-decision state tensors,"Base globals $g_{t,1:8}^0$, item primitives, mask $V_t$"
+FROZEN_STATISTICS,Training-fitted summaries $\eta$,"Bucketed demand $\widehat{D}_{tj}$, holding proxy $\widehat{h}_{tj}$, support $c_{tj}$"
+TRANSITION_FIELDS,Training-time action inputs to $R$,Selected assortment mask $A_t$ and feasible mask $V_t$
+S_SIGNATURE,Callable signature of $S$,"revise_state(global_base, candidate_base, available)"
+S_OUTPUT_SCHEMA,Output shapes and data type,"Globals $[B,8]$, items $[B,M,4]$, float32"
+GLOBAL_DIM / CANDIDATE_DIM,"Feature widths $(d_g, d_c)$","$d_g = 8$, $d_c = 4$"
+R_SIGNATURE,Callable signature of $R$,"intrinsic_reward(global_f, candidate_f, available, selected)"
+R_OUTPUT_SCHEMA / BOUNDS,Auxiliary reward shape,"$[B]$ float32 bounded in $[-1, 1]$"
+AUXILIARY_WEIGHT_SCHEDULE,Epoch annealing $\lambda_k$,Linear decay $0.010 \to 0$ over 6 epochs
+EMPTY_AND_TERMINAL_RULES,Edge-case conventions,$A_t = \emptyset \mapsto -0.05$; mask out $j \notin V_t$
+ALLOWED_LIBRARIES,Execution sandbox,Sandboxed NumPy array operations only
+SELECTION_PROTOCOL,Bilevel probe & validation,"Two-epoch RL probe; select $(S^*, R^*)$ by validation $J_{\mathrm{search}}$"
+PRIOR_PROGRAM_AND_FEEDBACK,Iterative refinement context,NONE in Round 1; Round 1 code + probe diagnostics in Round 2
+RETURN_FORMAT,Code output specification,Executable Python functions with coordinate docstrings

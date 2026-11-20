@@ -1,0 +1,10 @@
+Panel,Setting,Capacity shift,Full rev. growth (%),Gap at ref.,Gap at max,Target y_c,Min. cap. (Base / Full),Full rev. at min. cap.
+"Panel A. Expedia: Booking-Depleted Hotel Inventory (q ∈{1,2,3,4})",Expedia30,q: 2→ 4,+33.70,+214.72,+332.80,10805.42,4 / 3,11293.77
+"Panel A. Expedia: Booking-Depleted Hotel Inventory (q ∈{1,2,3,4})",Expedia Head,q: 1→ 4,+18.93,+17.35,+6.79,134.28,4 / 2,137.71
+"Panel A. Expedia: Booking-Depleted Hotel Inventory (q ∈{1,2,3,4})",Expedia Regular,q: 1→ 4,+7.64,+12.76,+12.95,120.38,4 / 1,123.87
+"Panel A. Expedia: Booking-Depleted Hotel Inventory (q ∈{1,2,3,4})",Expedia Cold,q: 1→ 4,+7.30,+6.88,+11.91,100.49,4 / 1,104.75
+"Panel B. KuaiSearch: Display-Depleted Product Exposure (ρ∈{0.50,0.75,1.00,1.25,1.50})",Overall,ρ: 1→ 1.5,+13.71,+367.04,+100.18,4833.86,1.50 / 1.50,4934.04
+"Panel B. KuaiSearch: Display-Depleted Product Exposure (ρ∈{0.50,0.75,1.00,1.25,1.50})",Q-Head,ρ: 1→ 1.5,+11.22,+295.14,+303.48,5139.49,1.50 / 1.50,5442.97
+"Panel B. KuaiSearch: Display-Depleted Product Exposure (ρ∈{0.50,0.75,1.00,1.25,1.50})",Q-Regular,ρ: 1→ 1.5,+27.97,+179.31,+200.62,6066.31,1.50 / 1.25,6106.50
+"Panel B. KuaiSearch: Display-Depleted Product Exposure (ρ∈{0.50,0.75,1.00,1.25,1.50})",Q-Cold,ρ: 1→ 1.5,+24.60,+23.33,+7.76,1761.38,1.50 / 1.50,1769.14
+"Panel B. KuaiSearch: Display-Depleted Product Exposure (ρ∈{0.50,0.75,1.00,1.25,1.50})",Q-Unseen,ρ: 1→ 1.5,+10.79,+100.24,+1.43,1570.64,1.50 / 1.50,1572.07

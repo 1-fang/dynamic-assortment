@@ -1,0 +1,9 @@
+Input category,Representative variables,Interface role and timing boundary
+Request context ($X_t$),"Customer segment, search query metadata, party attributes",Observed upon arrival prior to assortment selection
+Candidate attributes ($W_t$),"Room rate or item price, star/quality ratings, 30-day item logs",Aligned with candidate indices $j \in C_t$
+Resource ledger ($R_t$),Remaining room stock $q_{tj}$ or exposure ratio $\tilde{b}_{tj}$,Updated strictly by realized prior transitions
+Horizon progress ($H_t$),"Elapsed fraction $1 - \tau_t$, remaining fraction $\tau_t$, remaining steps",Computed against true episode length $T_e$
+Frozen summaries ($\eta$),"Training exposure frequency, smoothed conversion, support count",Estimated on training split and held fixed out of sample
+Model-based primitives,"Singleton expected value $\widehat{u}_{tj}^{(1)}$, bucketed demand forecast $\widehat{D}_{tj}$",Pre-decision expectations from training-fitted models
+Feasibility mask ($M_t$),"Binary indicator for $j \in V_t$ ($r_{tj} > 0$, non-padded)",Excludes exhausted and padded entries from set statistics
+Realized outcomes,"Current choice $Y_t$, future arrivals $(x_{t'}, C_{t'})_{t' > t}$",Strictly withheld from $S$; $R$ accesses transitions in training only

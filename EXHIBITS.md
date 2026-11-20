@@ -1,6 +1,10 @@
 # Manuscript exhibit index
 
-Table numbers follow the manuscript revision with the frozen deployment appendix. Each table can be rendered with [`render_tables.py`](scripts/render_tables.py). The script checks the reported differences in Tables 7, 8, and EC.16 from the displayed means.
+See the [current CSV exhibit index](results/README.md) and [reproduction notebook](reproduce_results.ipynb) for the RQ1–RQ3 manuscript.
+
+## Earlier JSON release
+
+The entries below follow the numbering used by the earlier JSON release. Each table can be rendered with [`render_tables.py`](scripts/render_tables.py). The script checks the reported differences in Tables 7, 8, and EC.16 from the displayed means.
 
 ## Tables
 

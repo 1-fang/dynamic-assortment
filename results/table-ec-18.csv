@@ -1,0 +1,26 @@
+Panel,Group,ρ,Nominal target,A2C Transformer Mean,A2C Transformer SD,Qwen S/R Mean,Qwen S/R SD,Difference
+Panel A. KuaiSearch Overall: Mixed-Query Episodes,Overall,0.50,1000,2453.35,0.88,2645.47,10.10,+192.12
+Panel A. KuaiSearch Overall: Mixed-Query Episodes,Overall,0.75,1500,3369.12,1.96,3560.72,2.78,+191.60
+Panel A. KuaiSearch Overall: Mixed-Query Episodes,Overall,1.00,2000,3951.96,0.99,4350.00,40.06,+398.04
+Panel A. KuaiSearch Overall: Mixed-Query Episodes,Overall,1.25,2500,4282.12,2.43,4466.35,20.10,+184.23
+Panel A. KuaiSearch Overall: Mixed-Query Episodes,Overall,1.50,3000,4482.91,3.47,4571.10,17.65,+88.19
+Panel B. KuaiSearch Query-Support Groups,Q-Head,0.50,1000,2845.08,2.97,2894.09,1.58,+49.01
+Panel B. KuaiSearch Query-Support Groups,Q-Head,0.75,1500,3827.08,12.30,3924.64,13.81,+97.56
+Panel B. KuaiSearch Query-Support Groups,Q-Head,1.00,2000,4598.88,15.98,4894.02,16.99,+295.14
+Panel B. KuaiSearch Query-Support Groups,Q-Head,1.25,2500,4899.28,20.88,5021.30,16.74,+122.02
+Panel B. KuaiSearch Query-Support Groups,Q-Head,1.50,3000,5394.94,35.13,5691.54,28.33,+296.60
+Panel B. KuaiSearch Query-Support Groups,Q-Regular,0.50,1000,3706.01,0.89,3839.38,1.31,+133.37
+Panel B. KuaiSearch Query-Support Groups,Q-Regular,0.75,1500,4610.08,4.01,4878.46,3.31,+268.38
+Panel B. KuaiSearch Query-Support Groups,Q-Regular,1.00,2000,5708.23,18.13,6197.50,19.38,+489.27
+Panel B. KuaiSearch Query-Support Groups,Q-Regular,1.25,2500,6339.33,17.97,6652.76,4.79,+313.43
+Panel B. KuaiSearch Query-Support Groups,Q-Regular,1.50,3000,7492.69,6.17,7819.19,13.14,+326.50
+Panel B. KuaiSearch Query-Support Groups,Q-Cold,0.50,1000,2029.75,14.38,2137.14,18.06,+107.39
+Panel B. KuaiSearch Query-Support Groups,Q-Cold,0.75,1500,2145.59,12.46,2830.87,12.16,+685.28
+Panel B. KuaiSearch Query-Support Groups,Q-Cold,1.00,2000,3218.12,11.54,3520.41,7.21,+302.29
+Panel B. KuaiSearch Query-Support Groups,Q-Cold,1.25,2500,3829.61,10.52,3917.51,13.79,+87.90
+Panel B. KuaiSearch Query-Support Groups,Q-Cold,1.50,3000,4099.29,30.28,4195.43,38.39,+96.14
+Panel B. KuaiSearch Query-Support Groups,Q-Unseen,0.50,1000,2206.03,4.75,2303.97,0.66,+97.94
+Panel B. KuaiSearch Query-Support Groups,Q-Unseen,0.75,1500,2658.35,3.05,2757.41,6.03,+99.06
+Panel B. KuaiSearch Query-Support Groups,Q-Unseen,1.00,2000,3197.64,4.84,3492.74,7.36,+295.10
+Panel B. KuaiSearch Query-Support Groups,Q-Unseen,1.25,2500,3467.14,5.70,3545.93,5.28,+78.79
+Panel B. KuaiSearch Query-Support Groups,Q-Unseen,1.50,3000,3651.57,6.03,3748.78,2.07,+97.21

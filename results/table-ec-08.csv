@@ -1,0 +1,6 @@
+Setting,Mathematical form of $R_t^{\mathrm{aux}}$ ($A_t \neq \emptyset$),Operational credit-assignment role
+Overall,"$\tanh\bigl(0.10\,\Delta_{A,V}[f_{tj,3}^{\mathrm{item}}]\bigr)$",Guides selection toward high-frequency items with ample remaining budget relative to horizon $\tau_t$.
+Q-Head,"$\Delta_{A,V}[\tanh(\text{ctr}_j)]$",Rewards assortments exceeding the feasible pool's average bounded click efficiency.
+Q-Regular,"$\Delta_{A,V}[f_{tj,2}^{\mathrm{item}} f_{tj,3}^{\mathrm{item}}] \cdot \Delta_{A,V}[\tilde{b}_{tj}\tau_t]$",Aligns joint relative CTR–CVR advantage with remaining exposure-horizon slack.
+Q-Cold,"$\tau_t \cdot \Delta_{A,V}\!\bigl[\log\frac{1+\text{clk}_j}{1+\text{disp}_j}\bigr] \cdot \Delta_{A,V}[\tilde{b}_{tj}]$",Couples smoothed log click efficiency with relative budget availability; vanishes naturally as $\tau_t \to 0$.
+Q-Unseen,"$\tanh\bigl(\Delta_{A,V}[f_{tj,2}^{\mathrm{item}}]\bigr)$",Reinforces feasible-pool-centered historical click efficiency when query context is unseen.

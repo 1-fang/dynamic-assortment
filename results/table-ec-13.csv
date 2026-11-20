@@ -1,0 +1,10 @@
+Panel,Setting,mBERT Mean,mBERT SD,Sentence-Trans. Mean,Sentence-Trans. SD,Multilingual E5 Mean,Multilingual E5 SD,BGE-M3 Mean,BGE-M3 SD
+Panel A. Expedia: Booking-Depleted Hotel Inventory,30 Hotels,7829.06,77.93,7838.62,74.79,7897.60,42.94,7880.46,83.06
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Head,103.27,1.96,102.71,3.22,102.80,3.02,103.04,3.01
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Regular,108.22,1.81,106.54,1.42,107.48,0.50,106.01,0.79
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Cold,58.48,11.36,60.66,6.03,59.60,4.99,57.16,0.58
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Overall,3992.83,5.00,3993.98,3.37,3993.99,3.38,3993.44,4.45
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Q-Head,4622.64,26.30,4623.90,24.41,4622.38,24.19,4624.53,17.83
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Q-Regular,5719.00,4.29,5828.93,4.03,5920.25,5.56,5818.92,4.24
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Q-Cold,3195.56,17.29,3190.92,8.83,3195.59,17.47,3192.29,16.31
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Q-Unseen,3198.30,13.06,3206.32,1.67,3200.59,8.02,3205.95,1.58

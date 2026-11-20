@@ -1,0 +1,4 @@
+Operating environment,Global f_t^global,Candidate f_tj^item,Auxiliary reward R_t^aux
+Expedia30 (fixed 30 hotels),8 dimensions,3 per hotel (98 total with globals),Scalar potential difference per step
+"Expedia Head, Regular, Cold",8 dimensions,4 per candidate (B × M × 4),Scalar pool contrast per request
+KuaiSearch (Overall & 4 Query tiers),8 dimensions,4 per candidate (B × M × 4),Scalar pool contrast per request

@@ -45,8 +45,12 @@ All test arrivals count toward the relevant denominator, including arrivals with
 
 ## Aggregate exhibit files
 
+The [current exhibit index](../results/README.md) lists manuscript tables and figure inputs in CSV format. The [reproduction notebook](../reproduce_results.ipynb) reads those CSVs.
+
+### Earlier JSON release
+
 Each numbered table has a JSON file in [`tables/`](tables/). The `panels` array preserves row and panel order. A numeric result cell contains `mean` and `sd` as decimal strings at the manuscript's displayed precision. Empty group cells inherit the preceding group. Text cells retain headings, scenario names and units.
 
 [`current_results.json`](current_results.json) presents the plot inputs in a long format. [`check_figure_data.py`](../scripts/check_figure_data.py) compares its mean and SD pairs with Tables 3, 4, 6, 7, and 8. Table EC.16 supplies the frozen migration grid for the deployment map. Its results describe frozen-policy evaluation across target resource conditions. In Tables 7 and 8 each resource condition uses a policy trained for that resource level.
 
-Reported standard deviations describe dispersion across replications. The scripts compute changes from the displayed means. [Exhibit index](../EXHIBITS.md)
+Reported standard deviations describe dispersion across replications. The scripts compute changes from the displayed means. [Earlier exhibit index](../EXHIBITS.md)

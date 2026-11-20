@@ -1,9 +1,10 @@
-<h1 align="center">Large Language Models for Dynamic Assortment</h1>
-<p align="center"><strong>A Knowledge-Guided Learning Approach</strong></p>
+<h1 align="center">Compiling Operational Knowledge for Dynamic Assortment</h1>
+<p align="center"><strong>LLM-Guided Policy Learning under Resource Constraints</strong></p>
 <p align="center">
   <a href="#overview">Overview</a> ·
   <a href="#data">Data</a> ·
-  <a href="EXHIBITS.md">Tables and figures</a> ·
+  <a href="results/README.md">Tables and figures</a> ·
+  <a href="reproduce_results.ipynb">Reproduce results</a> ·
   <a href="experiment/README.md">Experiment code</a>
 </p>
 
@@ -32,10 +33,11 @@ The experiments cover nine settings built from Expedia and KuaiSearch-Lite. The 
 | Directory | Contents |
 | --- | --- |
 | [`assets/`](assets/) | Background and method illustrations |
-| [`data/`](data/) | Manuscript aggregate statistics and table cells in JSON |
-| [`scripts/`](scripts/) | Table rendering, plot checks, and figure generation |
+| [`results/`](results/) | CSVs indexed by manuscript table and figure |
+| [`data/`](data/) | Data sources, evaluation splits, and earlier aggregate JSON files |
+| [`scripts/`](scripts/) | Table rendering and figure generation |
 | [`experiment/`](experiment/) | Selected implementation modules and a CPU example |
 
-The release includes aggregate data for eight main tables and sixteen appendix tables, plus the S/R parameter guide. It includes selected implementation code for feasible assortment selection, A2C updates, customer-response evaluation, and resource accounting. Fig. 3 includes a plotting script with a documented input format. Its epoch-level inputs are outside the current release.
+The [results index](results/README.md) follows the current RQ1–RQ3 manuscript. The [reproduction notebook](reproduce_results.ipynb) reads the CSVs and displays the tables and figures. The implementation covers feasible assortment selection, A2C updates, customer-response evaluation, and resource accounting.
 
 The [MIT License](LICENSE) applies to the released software and its documentation. The figure assets and result summaries accompany this research artifact. Access to the underlying platform interaction datasets follows their respective provider terms.

@@ -1,0 +1,10 @@
+setting,method,reference,mean,sd,reference_mean,reference_sd,gain_pct
+Expedia30,Qwen + S/R,A2C Transformer,8320.62,50.59,8093.58,34.55,2.80518633
+Expedia Head,Qwen + S/R,A2C Transformer,118.62,0.55,101.27,2.06,17.13241829
+Expedia Regular,Qwen + S/R,A2C Transformer,117.05,0.26,102.35,2.41,14.36248168
+Expedia Cold,Qwen + S/R,A2C Transformer,95.24,0.70,76.60,3.47,24.33420366
+KuaiSearch Overall,Qwen + S/R,A2C Transformer,4350.00,40.06,3951.96,0.99,10.07196429
+Q-Head,Qwen + S/R,A2C Transformer,4894.02,16.99,4598.88,15.98,6.41764951
+Q-Regular,Qwen + S/R,A2C Transformer,6197.50,19.38,5708.23,18.13,8.57130844
+Q-Cold,Qwen + S/R,A2C Transformer,3520.41,7.21,3218.12,11.54,9.39337253
+Q-Unseen,Qwen + S/R,A2C Transformer,3492.74,7.36,3197.64,4.84,9.22868115

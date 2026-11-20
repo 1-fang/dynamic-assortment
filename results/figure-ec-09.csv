@@ -1,0 +1,17 @@
+setting,capacity_type,capacity,base_mean,base_sd,full_mean,full_sd
+Expedia30,inventory_per_hotel,1,4618.75,8.52,4921.03,9.91
+Expedia30,inventory_per_hotel,2,8093.58,34.55,8320.62,50.59
+Expedia30,inventory_per_hotel,3,10365.53,115.65,10379.30,67.64
+Expedia30,inventory_per_hotel,4,11818.92,38.98,12807.68,65.26
+Expedia Head,inventory_per_hotel,1,101.27,2.06,118.62,0.55
+Expedia Head,inventory_per_hotel,2,138.34,3.59,158.76,2.47
+Expedia Head,inventory_per_hotel,3,142.82,0.54,149.98,1.54
+Expedia Head,inventory_per_hotel,4,144.44,1.79,147.00,0.24
+Expedia Regular,inventory_per_hotel,1,102.35,2.41,117.05,0.26
+Expedia Regular,inventory_per_hotel,2,129.81,3.24,142.13,0.89
+Expedia Regular,inventory_per_hotel,3,139.92,1.75,152.70,0.28
+Expedia Regular,inventory_per_hotel,4,147.48,3.41,159.28,0.25
+Expedia Cold,inventory_per_hotel,1,76.60,3.47,95.24,0.70
+Expedia Cold,inventory_per_hotel,2,89.71,2.05,112.31,0.54
+Expedia Cold,inventory_per_hotel,3,119.19,1.58,130.10,0.47
+Expedia Cold,inventory_per_hotel,4,124.75,2.08,131.21,0.18

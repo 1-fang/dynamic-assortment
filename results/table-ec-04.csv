@@ -1,0 +1,13 @@
+Primitive,Operational meaning,Construction from pre-decision state and $\eta$
+"$g_{t,1}^0$",Centered remaining horizon,"$\tau_t - 0.5$, tracking remaining selling window"
+"$g_{t,2}^0$",Aggregate inventory coverage,$\tanh\bigl(\log(\sum_{j \in V_t} q_{tj} / \sum_{j \in V_t} \widehat{D}_{tj})\bigr)$; negative under aggregate scarcity
+"$g_{t,3}^0$",Mean stockout-pressure index,Feasible-set mean of $\sigma(\log(\widehat{D}_{tj}/q_{tj}))$ over $j \in V_t$
+"$g_{t,4}^0$",Mean holding-value level,Bounded mean of $\widehat{h}_{tj}$ normalized by mean positive candidate price
+"$g_{t,5}^0$",Peak current match opportunity,"Smooth-max (log-sum-exp) of $m_{tj}$ over $V_t$, adjusted for $|V_t|$"
+"$g_{t,6}^0$",Current service-value dispersion,Bounded coefficient of variation of $\widetilde{v}_{tj}^{\mathrm{now}}$ across $j \in V_t$
+"$g_{t,7}^0$",Within-pool substitute density,"Attribute similarity across $V_t$ over standardized price, star, review, and location"
+"$g_{t,8}^0$",Market-item support depth,Mean of destination-level and property-level training support indices
+$v_{tj}$,Item demand-to-stock pressure,$\tanh(\log(\widehat{D}_{tj}/q_{tj}))$
+$m_{tj}$,Request–hotel match score,Centered product of log-price affordability and $\sqrt{\text{star fit} \times \text{quality}}$
+$a_{tj}$,Sell-now net margin,"$\tanh(\widetilde{v}_{tj}^{\mathrm{now}} - \widehat{h}_{tj})$, contrasting immediate fit value with holding value"
+$c_{tj}$,Sample-support confidence,Bounded log transformation of training exposure count for destination–hotel pair

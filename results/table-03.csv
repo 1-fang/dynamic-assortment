@@ -1,0 +1,25 @@
+Panel,Section,Method,30 Hotels revenue/day Mean,30 Hotels revenue/day SD,Head revenue/search Mean,Head revenue/search SD,Regular revenue/search Mean,Regular revenue/search SD,Cold revenue/search Mean,Cold revenue/search SD,Overall Mean,Overall SD,Q-Head Mean,Q-Head SD,Q-Regular Mean,Q-Regular SD,Q-Cold Mean,Q-Cold SD,Q-Unseen Mean,Q-Unseen SD
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Operating-rule and slate-decomposition benchmarks,LoggedTopK,5905.22,0.52,81.97,0.89,82.34,0.35,78.97,0.71,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Operating-rule and slate-decomposition benchmarks,Random,4125.10,0.24,60.00,0.15,69.79,0.62,54.98,1.09,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Operating-rule and slate-decomposition benchmarks,Myopic,5506.02,0.32,90.80,0.31,95.56,0.54,88.53,0.68,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Operating-rule and slate-decomposition benchmarks,SlateQ Greedy,6105.06,0.19,85.10,0.46,81.03,0.34,79.88,0.98,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Operating-rule and slate-decomposition benchmarks,SlateQ TopK,6204.10,1.71,82.37,0.96,79.69,0.27,80.06,0.39,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Unaugmented DRL baselines (A2C across neural backbones),A2C GRU,8100.06,38.51,92.15,2.17,87.05,1.34,78.20,9.49,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Unaugmented DRL baselines (A2C across neural backbones),A2C RNN,7926.09,77.96,93.12,1.44,85.72,1.47,77.20,3.60,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,Unaugmented DRL baselines (A2C across neural backbones),A2C Transformer,8093.58,34.55,101.27,2.06,102.35,2.41,76.60,3.47,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,LLM-compiled S/R (A2C Transformer),Qwen + S/R,8320.62,50.59,118.62,0.55,117.05,0.26,95.24,0.70,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,LLM-compiled S/R (A2C Transformer),DeepSeek + S/R,8399.51,9.19,117.81,0.38,109.47,6.29,89.21,2.27,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,LLM-compiled S/R (A2C Transformer),GPT-4o-mini + S/R,8177.95,25.53,111.96,0.85,110.16,0.79,87.33,0.94,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,LLM-compiled S/R (A2C Transformer),GPT-5.4-mini + S/R,8431.92,26.41,121.56,1.09,114.37,3.01,92.84,3.24,,,,,,,,,,
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Operating-rule and slate-decomposition benchmarks,LoggedTopK,,,,,,,,,3952.35,690.93,4413.53,0.00,4055.97,0.00,3170.41,0.00,3159.40,0.00
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Operating-rule and slate-decomposition benchmarks,Random,,,,,,,,,3933.70,692.39,4012.89,13.75,5455.20,32.46,2750.51,8.42,2850.90,32.20
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Operating-rule and slate-decomposition benchmarks,Myopic,,,,,,,,,4145.93,696.32,4211.53,0.00,5108.21,19.15,3145.25,0.00,3328.33,0.00
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Operating-rule and slate-decomposition benchmarks,SlateQ Greedy,,,,,,,,,4039.10,10.24,4559.79,8.58,5756.98,6.58,3294.63,16.82,3235.71,13.20
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Operating-rule and slate-decomposition benchmarks,SlateQ TopK,,,,,,,,,4000.88,11.47,4548.71,17.85,5654.53,6.53,3234.47,26.13,3222.24,5.94
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Unaugmented DRL baselines (A2C across neural backbones),A2C GRU,,,,,,,,,3947.13,1.77,4619.82,23.18,5723.63,1.85,3201.06,12.77,3201.45,5.58
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Unaugmented DRL baselines (A2C across neural backbones),A2C RNN,,,,,,,,,3825.63,5.41,4613.53,15.03,5419.88,1.57,3193.89,13.24,3197.14,8.47
+Panel B. KuaiSearch: Display-Depleted Product Exposure,Unaugmented DRL baselines (A2C across neural backbones),A2C Transformer,,,,,,,,,3951.96,0.99,4598.88,15.98,5708.23,18.13,3218.12,11.54,3197.64,4.84
+Panel B. KuaiSearch: Display-Depleted Product Exposure,LLM-compiled S/R (A2C Transformer),Qwen + S/R,,,,,,,,,4350.00,40.06,4894.02,16.99,6197.50,19.38,3520.41,7.21,3492.74,7.36
+Panel B. KuaiSearch: Display-Depleted Product Exposure,LLM-compiled S/R (A2C Transformer),DeepSeek + S/R,,,,,,,,,4164.95,37.99,4793.16,16.29,6015.45,19.47,3426.22,6.39,3399.56,1.10
+Panel B. KuaiSearch: Display-Depleted Product Exposure,LLM-compiled S/R (A2C Transformer),GPT-4o-mini + S/R,,,,,,,,,3964.79,37.82,4690.24,17.58,6107.36,19.23,3520.58,6.94,3294.17,6.50
+Panel B. KuaiSearch: Display-Depleted Product Exposure,LLM-compiled S/R (A2C Transformer),GPT-5.4-mini + S/R,,,,,,,,,4265.06,38.14,4993.83,15.96,6239.45,0.00,3626.22,6.28,3597.49,9.38

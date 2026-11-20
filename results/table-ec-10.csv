@@ -1,0 +1,5 @@
+Panel,Method,30 Hotels revenue/day Mean,30 Hotels revenue/day SD,Head revenue/search Mean,Head revenue/search SD,Regular revenue/search Mean,Regular revenue/search SD,Cold revenue/search Mean,Cold revenue/search SD,Overall Mean,Overall SD,Q-Head Mean,Q-Head SD,Q-Regular Mean,Q-Regular SD,Q-Cold Mean,Q-Cold SD,Q-Unseen Mean,Q-Unseen SD
+Panel A. Expedia: Booking-Depleted Hotel Inventory,PPO,8142.83,37.36,99.76,1.05,95.43,7.15,80.36,1.13,,,,,,,,,,
+Panel A. Expedia: Booking-Depleted Hotel Inventory,PPO + Qwen S/R,8353.10,44.21,113.35,1.35,109.69,7.33,95.72,4.92,,,,,,,,,,
+Panel B. KuaiSearch: Display-Depleted Product Exposure,PPO,,,,,,,,,3987.08,19.42,4622.87,33.93,6104.21,19.99,3178.26,28.45,3191.65,22.89
+Panel B. KuaiSearch: Display-Depleted Product Exposure,PPO + Qwen S/R,,,,,,,,,4299.71,30.10,4647.63,43.81,6118.76,5.01,3198.84,45.40,3174.22,14.40
